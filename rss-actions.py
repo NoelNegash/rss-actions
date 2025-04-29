@@ -6,6 +6,10 @@ from bs4 import BeautifulSoup
 
 ''' TODO
 - cache sitemap data, check last-modified
+- read already existing atom_file to avoid unnecessary scraping
+- partition into historical.atom and "latest".atom
+- multi-threaded? (might be overkill if site doesn't update much)
+- separate "branches?" for each site
 '''
 
 def get_sitemap_bs(url):

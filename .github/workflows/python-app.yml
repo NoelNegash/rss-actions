@@ -30,4 +30,8 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Upload generated feeds
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        FIRST_NAME: Mona
+        LAST_NAME: Octocat
       run: python rss-actions.py && git add . && git commit -m "generated feeds" && git push -u
