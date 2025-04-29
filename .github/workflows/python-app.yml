@@ -5,7 +5,9 @@ name: Python application
 
 on:
   push:
-    paths: rss-actions.py .github\workflows\python-app.yml
+    paths: 
+      - rss-actions.py 
+      - .github\workflows\python-app.yml
   pull_request:
     branches: [ "main" ]
   schedule:
