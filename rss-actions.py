@@ -1,4 +1,5 @@
 import requests, re
+import os.path
 from feedgen.feed import FeedGenerator
 from urllib.request import urljoin
 from bs4 import BeautifulSoup
@@ -6,17 +7,44 @@ from bs4 import BeautifulSoup
 ''' DONE
 - added thumbnails
 - cleaner summary
+- read already existing atom_file to avoid unnecessary scraping
+- implement reading .atom file back into feedgen instead of caching, don't need duplicates
+- find way to extract last 10-20 entries from feedgen (removing entries from a copy of historical)
+- partition into historical.atom and "latest".atom
 '''
 
 ''' TODO
-- check last-modified, check if post id (url) already an entry
-- read already existing atom_file to avoid unnecessary scraping
-- implement reading .atom file back into feedgen instead of caching, don't need duplicates
-- find way to extract last 10-20 entries from feedgen
-- partition into historical.atom and "latest".atom
+- check last-modified of sitmap.xml, check if post id (url) already an entry
 - multi-threaded? (might be overkill if site doesn't update much)
 - separate "branches?" for each site
 '''
+
+def feed_from_atom(f):
+  fg = FeedGenerator()
+  fg.load_extension('media', atom=True, rss=True)
+
+  bs = BeautifulSoup(open(f).read(), features="xml").find("feed")
+  fg.updated(bs.find("updated").get_text())
+  fg.id(bs.find("id").get_text())
+  fg.title(bs.find("title").get_text())
+  fg.link(bs.find("link", rel='alternate').get_text())
+  fg.link(bs.find("link", rel='self').get_text())
+  fg.logo(bs.find("logo").get_text())
+  fg.subtitle(bs.find("subtitle").get_text())
+
+  for e in bs.find_all("entry"):
+    fe = fg.add_entry()
+
+    fe.updated(e.find("updated").get_text())
+
+    fe.id(e.find("id").get_text())
+    fe.title(e.find("title").get_text())
+    fe.content(e.find("content").get_text())
+    fe.summary(e.find("summary").get_text())
+    fe.link(href=e.find("link").get("href"))
+    fe.media.thumbnail(url=e.find("media:thumbnail").get("url"))
+  return fg
+
 
 def get_sitemap_bs(url):
   return BeautifulSoup(requests.get(urljoin(url,'/sitemap.xml')).content, features="xml")
@@ -25,20 +53,35 @@ def the_dowsers_articles():
   return list(map(lambda x: x.string.strip(), get_sitemap_bs("https://the-dowsers.com").find_all("loc", string=re.compile(r'https://www.the-dowsers.com/the-dowser-posts/.*'))))
 
 def the_dowsers_feed():
-  fg = FeedGenerator()
-  fg.load_extension('media', atom=True, rss=True)
 
-  fg.id('http://lernfunk.de/media/654321')
-  fg.title('The Dowsers')
-  fg.link( href='http://the-dowsers.com', rel='alternate' )
-  fg.logo('https://cdn.prod.website-files.com/669681ffaf2044783667eeb1/669681ffaf2044783667eed8_the-dowsers-logo-p-500.png')
-  fg.subtitle('A Magazine About Playlists')
-  fg.link( href='http://the-dowsers.com', rel='self' )
-  fg.language('en')
+  fg = None
+  new_articles = None
 
-  articles = the_dowsers_articles()[:10]
-  for i, url in enumerate(articles):
-    print(f"Info: scraping article {i+1}/{len(articles)}: {url}")
+  if os.path.exists("dist/the-dowsers_historical.atom"):
+    fg = feed_from_atom("dist/the-dowsers_historical.atom")
+    new_articles = filter(
+      lambda url: url not in list(map(
+        lambda e: e.id(),
+        fg.entry()
+      )),
+      the_dowsers_articles()
+    )
+  else:
+    fg = FeedGenerator()
+    fg.load_extension('media', atom=True, rss=True)
+
+    fg.id('http://the-dowsers.com')
+    fg.title('The Dowsers')
+    fg.link( href='http://the-dowsers.com', rel='alternate' )
+    fg.link( href='http://the-dowsers.com', rel='self' )
+    fg.logo('https://cdn.prod.website-files.com/669681ffaf2044783667eeb1/669681ffaf2044783667eed8_the-dowsers-logo-p-500.png')
+    fg.subtitle('A Magazine About Playlists')
+    fg.language('en')
+
+    new_articles = the_dowsers_articles()
+
+  for i, url in enumerate(new_articles):
+    print(f"Info: scraping article {i+1}/{len(new_articles)}: {url}")
     bs = BeautifulSoup(requests.get(url).content, 'html.parser')
     fe = fg.add_entry()
 
@@ -51,6 +94,12 @@ def the_dowsers_feed():
     fe.media.thumbnail(url=bs.find(class_="blog-image").get("src"))
     fe.link(href=url)
 
-  fg.atom_file("dist/the-dowsers.atom", pretty=True)
+  
+  fg.atom_file("dist/the-dowsers_historical.atom", pretty=True)
+  fg_20 = feed_from_atom("dist/the-dowsers_historical.atom")
+
+  for e in fg_20.entry()[:-20]:
+    fg_20.remove_entry(e)
+  fg_20.atom_file("dist/the-dowsers.atom", pretty=True)
 
 the_dowsers_feed()
