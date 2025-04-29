@@ -5,7 +5,7 @@ name: Python application
 
 on:
   push:
-    paths: rss-actions.py
+    paths: rss-actions.py .github\workflows\python-app.yml
   pull_request:
     branches: [ "main" ]
   schedule:
@@ -34,4 +34,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         FIRST_NAME: Mona
         LAST_NAME: Octocat
-      run: python rss-actions.py && git add . && git commit -m "generated feeds" && git push -u
+      run: python rss-actions.py && git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/NoelNegash/rss-actions.git && git add . && git commit -m "generated feeds" && git push -u

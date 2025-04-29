@@ -3,10 +3,16 @@ from feedgen.feed import FeedGenerator
 from urllib.request import urljoin
 from bs4 import BeautifulSoup
 
+''' DONE
+- added thumbnails
+- cleaner summary
+'''
 
 ''' TODO
-- cache sitemap data, check last-modified
+- check last-modified, check if post id (url) already an entry
 - read already existing atom_file to avoid unnecessary scraping
+- implement reading .atom file back into feedgen instead of caching, don't need duplicates
+- find way to extract last 10-20 entries from feedgen
 - partition into historical.atom and "latest".atom
 - multi-threaded? (might be overkill if site doesn't update much)
 - separate "branches?" for each site
@@ -20,6 +26,8 @@ def the_dowsers_articles():
 
 def the_dowsers_feed():
   fg = FeedGenerator()
+  fg.load_extension('media', atom=True, rss=True)
+
   fg.id('http://lernfunk.de/media/654321')
   fg.title('The Dowsers')
   fg.link( href='http://the-dowsers.com', rel='alternate' )
@@ -28,7 +36,7 @@ def the_dowsers_feed():
   fg.link( href='http://the-dowsers.com', rel='self' )
   fg.language('en')
 
-  articles = the_dowsers_articles()
+  articles = the_dowsers_articles()[:10]
   for i, url in enumerate(articles):
     print(f"Info: scraping article {i+1}/{len(articles)}: {url}")
     bs = BeautifulSoup(requests.get(url).content, 'html.parser')
@@ -38,10 +46,11 @@ def the_dowsers_feed():
 
     fe.id(url)
     fe.title(bs.find("title").string.strip())
-    fe.content(str(blog_post), type="CDATA")
-    fe.summary(blog_post.get_text().strip())
+    fe.content(str(blog_post))
+    fe.summary(blog_post.find(class_="paragraph").get_text().strip())
+    fe.media.thumbnail(url=bs.find(class_="blog-image").get("src"))
     fe.link(href=url)
 
-  fg.atom_file("dist/the-dowsers.atom", True)
+  fg.atom_file("dist/the-dowsers.atom", pretty=True)
 
 the_dowsers_feed()
