@@ -24,7 +24,9 @@ def the_dowsers_feed():
   fg.link( href='http://the-dowsers.com', rel='self' )
   fg.language('en')
 
-  for url in the_dowsers_articles():
+  articles = the_dowsers_articles()
+  for i, url in enumerate(articles):
+    console.log(f"Info: scraping article {i+1}/{len(articles)}: {url}")
     bs = BeautifulSoup(requests.get(url).content, 'html.parser')
     fe = fg.add_entry()
 
