@@ -7,7 +7,7 @@ on:
   push:
     paths: 
       - rss-actions.py 
-      - .github\workflows\python-app.yml
+      - .github/workflows/python-app.yml
   pull_request:
     branches: [ "main" ]
   schedule:
