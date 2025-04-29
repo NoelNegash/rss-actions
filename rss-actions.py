@@ -3,6 +3,11 @@ from feedgen.feed import FeedGenerator
 from urllib.request import urljoin
 from bs4 import BeautifulSoup
 
+
+''' TODO
+- cache sitemap data, check last-modified
+'''
+
 def get_sitemap_bs(url):
   return BeautifulSoup(requests.get(urljoin(url,'/sitemap.xml')).content, features="xml")
 
