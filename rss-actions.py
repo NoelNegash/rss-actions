@@ -3,7 +3,7 @@ import os, os.path
 from feedgen.feed import FeedGenerator
 from urllib.request import urljoin
 from bs4 import BeautifulSoup
-import email.utils, dateutil
+import email.utils
 
 os.system("mkdir dist")
 
@@ -45,7 +45,7 @@ def feed_from_atom(f):
 
     fe.id(e.find("id").get_text())
     fe.title(e.find("title").get_text())
-    fe.content(e.find("content").find('div').encode_contents().decode("utf-8"), type="xhtml")
+    fe.content(e.find("content").encode_contents().decode("utf-8"), type="html")
     fe.summary(e.find("summary").get_text())
     fe.link(href=e.find("link").get("href"))
     fe.media.thumbnail(url=e.find("media:thumbnail").get("url"))
@@ -53,12 +53,19 @@ def feed_from_atom(f):
 
 
 def get_sitemap_bs(url, last_update=None):
+  print(f"Info: last update at {last_update}.")
   url = urljoin(url,'/sitemap.xml')
-
-  head = requests.head(url)
-  if 'last-modified' in head.headers and last_update and email.utils.parsedate_to_datetime(head.headers['last-modified']) < last_update:
-    print("Info: No need to get sitemap")
-    return BeautifulSoup('<sitemapindex></sitemapindex>', features="xml")
+  
+  headers = {}
+  if last_update: headers["if-modified-since"] = email.utils.format_datetime(last_update)
+  
+  head = requests.head(url, headers=headers)
+  if 'last-modified' in head.headers:
+    last_modified = email.utils.parsedate_to_datetime(head.headers['last-modified'])
+    print(f"Info: last modified at {last_modified}.")
+    if last_update and last_modified < last_update:
+      print("Info: No need to get sitemap")
+      return BeautifulSoup('<sitemapindex></sitemapindex>', features="xml")
   return BeautifulSoup(requests.get(url).content, features="xml")
 
 def the_dowsers_articles(last_update=None):
@@ -93,6 +100,8 @@ def the_dowsers_feed():
 
     new_articles = the_dowsers_articles()
 
+  print(f"Info: {len(new_articles)} new articles.")
+
   for i, url in enumerate(new_articles):
     print(f"Info: scraping article {i+1}/{len(new_articles)}: {url}")
     bs = BeautifulSoup(requests.get(url).content, 'html.parser')
@@ -103,9 +112,9 @@ def the_dowsers_feed():
 
     fe.id(url)
     fe.title(bs.find("title").string.strip())
-    fe.content(str(blog_post), type="xhtml")
+    fe.content(str(blog_post), type="html")
     if spotify_embed:
-      fe.content(fe.content()['content']+str(spotify_embed.find("iframe")), type="xhtml")
+      fe.content(fe.content()['content']+str(spotify_embed.find("iframe")), type="html")
     fe.summary(blog_post.find(class_="paragraph").get_text())
     fe.media.thumbnail(url=bs.find(class_="blog-image").get("src"))
     fe.link(href=url)
