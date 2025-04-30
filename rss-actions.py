@@ -76,7 +76,7 @@ def the_dowsers_feed():
         lambda e: e.id(),
         fg.entry()
       )),
-      the_dowsers_articles(dateutil.parser.parse(fg.entry()[-1]).find("updated").get_text())
+      the_dowsers_articles(dateutil.parser.parse(fg.entry()[-1].find("updated").get_text()))
     )
   else:
     fg = FeedGenerator()
