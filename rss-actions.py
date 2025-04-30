@@ -29,12 +29,12 @@ def feed_from_atom(f):
   fg = FeedGenerator()
   fg.load_extension('media', atom=True, rss=True)
 
-  bs = BeautifulSoup(open(f).read(), "lxml").find("feed")
+  bs = BeautifulSoup(open(f).read(), features="xml").find("feed")
   fg.updated(bs.find("updated").get_text())
   fg.id(bs.find("id").get_text())
   fg.title(bs.find("title").get_text())
-  fg.link(bs.find("link", rel='alternate').get_text())
-  fg.link(bs.find("link", rel='self').get_text())
+  fg.link(href=bs.find("link", rel='alternate').get_text(), rel='alternate')
+  fg.link(href=bs.find("link", rel='self').get_text(), rel='self')
   fg.logo(bs.find("logo").get_text())
   fg.subtitle(bs.find("subtitle").get_text())
 
@@ -72,13 +72,13 @@ def the_dowsers_feed():
 
   if os.path.exists("dist/the-dowsers_historical.atom"):
     fg = feed_from_atom("dist/the-dowsers_historical.atom")
-    new_articles = filter(
+    new_articles = list(filter(
       lambda url: url not in list(map(
         lambda e: e.id(),
         fg.entry()
       )),
-      the_dowsers_articles(dateutil.parser.parse(fg.entry()[-1].find("updated").get_text()))
-    )
+      the_dowsers_articles(fg.entry()[-1].updated())
+    ))
   else:
     fg = FeedGenerator()
     fg.load_extension('media', atom=True, rss=True)
@@ -91,7 +91,7 @@ def the_dowsers_feed():
     fg.subtitle('A Magazine About Playlists')
     fg.language('en')
 
-    new_articles = the_dowsers_articles()[:100]
+    new_articles = the_dowsers_articles()
 
   for i, url in enumerate(new_articles):
     print(f"Info: scraping article {i+1}/{len(new_articles)}: {url}")
@@ -103,7 +103,7 @@ def the_dowsers_feed():
 
     fe.id(url)
     fe.title(bs.find("title").string.strip())
-    fe.content(str(blog_post), type="html")
+    fe.content(str(blog_post), type="xhtml")
     if spotify_embed:
       fe.content(fe.content()['content']+str(spotify_embed.find("iframe")), type="xhtml")
     fe.summary(blog_post.find(class_="paragraph").get_text())
