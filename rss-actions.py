@@ -17,6 +17,7 @@ NUM_LATEST_FEEDS = 30
 - find way to extract last 10-20 entries from feedgen (removing entries from a copy of historical)
 - partition into historical.atom and "latest".atom
 - check last-modified of sitmap.xml, check if post id (url) already an entry
+- add spotify-embed if possible
 '''
 
 ''' TODO
@@ -97,10 +98,13 @@ def the_dowsers_feed():
     fe = fg.add_entry()
 
     blog_post = bs.find(class_="blog-posts-block")
+    spotify_embed = bs.find(class_="spotify-embeded")
 
     fe.id(url)
     fe.title(bs.find("title").string.strip())
     fe.content(str(blog_post))
+    if spotify_embed:
+      fe.content(fe.content()+str(spotify_embed.find("iframe")))
     fe.summary(blog_post.find(class_="paragraph").get_text().strip())
     fe.media.thumbnail(url=bs.find(class_="blog-image").get("src"))
     fe.link(href=url)
