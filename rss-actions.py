@@ -3,6 +3,9 @@ import os.path
 from feedgen.feed import FeedGenerator
 from urllib.request import urljoin
 from bs4 import BeautifulSoup
+import email.utils, dateutil
+
+NUM_LATEST_FEEDS = 30
 
 ''' DONE
 - added thumbnails
@@ -11,10 +14,10 @@ from bs4 import BeautifulSoup
 - implement reading .atom file back into feedgen instead of caching, don't need duplicates
 - find way to extract last 10-20 entries from feedgen (removing entries from a copy of historical)
 - partition into historical.atom and "latest".atom
+- check last-modified of sitmap.xml, check if post id (url) already an entry
 '''
 
 ''' TODO
-- check last-modified of sitmap.xml, check if post id (url) already an entry
 - multi-threaded? (might be overkill if site doesn't update much)
 - separate "branches?" for each site
 '''
@@ -46,13 +49,19 @@ def feed_from_atom(f):
   return fg
 
 
-def get_sitemap_bs(url):
-  return BeautifulSoup(requests.get(urljoin(url,'/sitemap.xml')).content, features="xml")
+def get_sitemap_bs(url, last_update=None):
+  url = urljoin(url,'/sitemap.xml')
 
-def the_dowsers_articles():
-  return list(map(lambda x: x.string.strip(), get_sitemap_bs("https://the-dowsers.com").find_all("loc", string=re.compile(r'https://www.the-dowsers.com/the-dowser-posts/.*'))))
+  head = requests.head(url)
+  if 'last-modified' in response.headers and last_update and email.utils.parsedate_to_datetime(response.headers['last-modified']) < last_update:
+    return BeautifulSoup('<sitemapindex></sitemapindex>', features="xml")
+  return BeautifulSoup(requests.get(url).content, features="xml")
+
+def the_dowsers_articles(last_update=None):
+  return list(map(lambda x: x.string.strip(), get_sitemap_bs("https://the-dowsers.com", last_update).find_all("loc", string=re.compile(r'https://www.the-dowsers.com/the-dowser-posts/.*'))))
 
 def the_dowsers_feed():
+  global NUM_LATEST_FEEDS
 
   fg = None
   new_articles = None
@@ -64,7 +73,7 @@ def the_dowsers_feed():
         lambda e: e.id(),
         fg.entry()
       )),
-      the_dowsers_articles()
+      the_dowsers_articles(dateutil.parser.parse(fg.entry()[-1]).find("updated").get_text())
     )
   else:
     fg = FeedGenerator()
@@ -96,10 +105,10 @@ def the_dowsers_feed():
 
   
   fg.atom_file("dist/the-dowsers_historical.atom", pretty=True)
-  fg_20 = feed_from_atom("dist/the-dowsers_historical.atom")
+  fg_latest = feed_from_atom("dist/the-dowsers_historical.atom")
 
-  for e in fg_20.entry()[:-20]:
-    fg_20.remove_entry(e)
-  fg_20.atom_file("dist/the-dowsers.atom", pretty=True)
+  for e in fg_latest.entry()[:-NUM_LATEST_FEEDS]:
+    fg_latest.remove_entry(e)
+  fg_latest.atom_file("dist/the-dowsers.atom", pretty=True)
 
 the_dowsers_feed()
