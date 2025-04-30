@@ -1,9 +1,11 @@
 import requests, re
-import os.path
+import os, os.path
 from feedgen.feed import FeedGenerator
 from urllib.request import urljoin
 from bs4 import BeautifulSoup
 import email.utils, dateutil
+
+os.system("mkdir dist")
 
 NUM_LATEST_FEEDS = 30
 
@@ -53,7 +55,7 @@ def get_sitemap_bs(url, last_update=None):
   url = urljoin(url,'/sitemap.xml')
 
   head = requests.head(url)
-  if 'last-modified' in response.headers and last_update and email.utils.parsedate_to_datetime(response.headers['last-modified']) < last_update:
+  if 'last-modified' in head.headers and last_update and email.utils.parsedate_to_datetime(head.headers['last-modified']) < last_update:
     return BeautifulSoup('<sitemapindex></sitemapindex>', features="xml")
   return BeautifulSoup(requests.get(url).content, features="xml")
 
