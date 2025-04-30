@@ -105,7 +105,7 @@ def the_dowsers_feed():
     fe.title(bs.find("title").string.strip())
     fe.content(str(blog_post), type="html")
     if spotify_embed:
-      fe.content(fe.content()['content']+str(spotify_embed.find("iframe")), type="html")
+      fe.content('<div>'+fe.content()['content']+str(spotify_embed.find("iframe"))+'</div>', type="html")
     fe.summary(str(blog_post.find(class_="paragraph")), type="html")
     fe.media.thumbnail(url=bs.find(class_="blog-image").get("src"))
     fe.link(href=url)
