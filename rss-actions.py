@@ -45,8 +45,8 @@ def feed_from_atom(f):
 
     fe.id(e.find("id").get_text())
     fe.title(e.find("title").get_text())
-    fe.content(e.find("content").get_text(), type="xhtml")
-    fe.summary(e.find("summary").get_text())
+    fe.content(e.find("content").renderContents(), type="html")
+    fe.summary(e.find("summary").renderContents(), type="html")
     fe.link(href=e.find("link").get("href"))
     fe.media.thumbnail(url=e.find("media:thumbnail").get("url"))
   return fg
@@ -102,10 +102,10 @@ def the_dowsers_feed():
 
     fe.id(url)
     fe.title(bs.find("title").string.strip())
-    fe.content(str(blog_post), type="xhtml")
+    fe.content(str(blog_post), type="html")
     if spotify_embed:
-      fe.content(fe.content()['content']+str(spotify_embed.find("iframe")), type="xhtml")
-    fe.summary(blog_post.find(class_="paragraph").get_text().strip())
+      fe.content(fe.content()['content']+str(spotify_embed.find("iframe")), type="html")
+    fe.summary(str(blog_post.find(class_="paragraph")), type="html")
     fe.media.thumbnail(url=bs.find(class_="blog-image").get("src"))
     fe.link(href=url)
 
