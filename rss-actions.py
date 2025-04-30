@@ -45,8 +45,8 @@ def feed_from_atom(f):
 
     fe.id(e.find("id").get_text())
     fe.title(e.find("title").get_text())
-    fe.content(e.find("content").renderContents(), type="html")
-    fe.summary(e.find("summary").renderContents(), type="html")
+    fe.content(e.find("content").encode_contents(), type="html")
+    fe.summary(e.find("summary").encode_contents(), type="html")
     fe.link(href=e.find("link").get("href"))
     fe.media.thumbnail(url=e.find("media:thumbnail").get("url"))
   return fg
@@ -57,6 +57,7 @@ def get_sitemap_bs(url, last_update=None):
 
   head = requests.head(url)
   if 'last-modified' in head.headers and last_update and email.utils.parsedate_to_datetime(head.headers['last-modified']) < last_update:
+    print("Info: No need to get sitemap")
     return BeautifulSoup('<sitemapindex></sitemapindex>', features="xml")
   return BeautifulSoup(requests.get(url).content, features="xml")
 
