@@ -45,7 +45,7 @@ def feed_from_atom(f):
 
     fe.id(e.find("id").get_text())
     fe.title(e.find("title").get_text())
-    fe.content(e.find("content").find('div').encode_contents(), type="xhtml")
+    fe.content(e.find("content").find('div').encode_contents().decode("utf-8"), type="xhtml")
     fe.summary(e.find("summary").get_text())
     fe.link(href=e.find("link").get("href"))
     fe.media.thumbnail(url=e.find("media:thumbnail").get("url"))
@@ -114,11 +114,8 @@ def the_dowsers_feed():
   fg.atom_file("dist/the-dowsers_historical.atom", pretty=True)
   fg_latest = feed_from_atom("dist/the-dowsers_historical.atom")
 
-  try:
-    for e in fg_latest.entry()[:-NUM_LATEST_FEEDS]:
-      fg_latest.remove_entry(e)
-    print(fg_latest.entry())
-    fg_latest.atom_file("dist/the-dowsers.atom", pretty=True)
-  except: pass
+  for e in fg_latest.entry()[:-NUM_LATEST_FEEDS]:
+    fg_latest.remove_entry(e)
+  fg_latest.atom_file("dist/the-dowsers.atom", pretty=True)
 
 the_dowsers_feed()
