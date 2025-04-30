@@ -29,7 +29,7 @@ def feed_from_atom(f):
   fg = FeedGenerator()
   fg.load_extension('media', atom=True, rss=True)
 
-  bs = BeautifulSoup(open(f).read(), features="xml").find("feed")
+  bs = BeautifulSoup(open(f).read(), "lxml").find("feed")
   fg.updated(bs.find("updated").get_text())
   fg.id(bs.find("id").get_text())
   fg.title(bs.find("title").get_text())
@@ -45,7 +45,7 @@ def feed_from_atom(f):
 
     fe.id(e.find("id").get_text())
     fe.title(e.find("title").get_text())
-    fe.content(e.find("content").contents[0].encode_contents(), type="xhtml")
+    fe.content(e.find("content").find('div').encode_contents(), type="xhtml")
     fe.summary(e.find("summary").get_text())
     fe.link(href=e.find("link").get("href"))
     fe.media.thumbnail(url=e.find("media:thumbnail").get("url"))
@@ -91,7 +91,7 @@ def the_dowsers_feed():
     fg.subtitle('A Magazine About Playlists')
     fg.language('en')
 
-    new_articles = the_dowsers_articles()
+    new_articles = the_dowsers_articles()[:100]
 
   for i, url in enumerate(new_articles):
     print(f"Info: scraping article {i+1}/{len(new_articles)}: {url}")
@@ -114,8 +114,11 @@ def the_dowsers_feed():
   fg.atom_file("dist/the-dowsers_historical.atom", pretty=True)
   fg_latest = feed_from_atom("dist/the-dowsers_historical.atom")
 
-  for e in fg_latest.entry()[:-NUM_LATEST_FEEDS]:
-    fg_latest.remove_entry(e)
-  fg_latest.atom_file("dist/the-dowsers.atom", pretty=True)
+  try:
+    for e in fg_latest.entry()[:-NUM_LATEST_FEEDS]:
+      fg_latest.remove_entry(e)
+    print(fg_latest.entry())
+    fg_latest.atom_file("dist/the-dowsers.atom", pretty=True)
+  except: pass
 
 the_dowsers_feed()
