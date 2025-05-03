@@ -38,7 +38,7 @@ def feed_from_atom(f):
   fg.logo(bs.find("logo").get_text())
   fg.subtitle(bs.find("subtitle").get_text())
 
-  for e in bs.find_all("entry"):
+  for e in reversed(bs.find_all("entry")):
     fe = fg.add_entry()
 
     fe.updated(e.find("updated").get_text())
