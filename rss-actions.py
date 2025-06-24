@@ -156,5 +156,5 @@ def dazeland_extract(url, bs, fe):
   fe.link(href=url)
 
 update_feed('https://the-dowsers.com', 'the-dowsers', [re.compile(r'https://www.the-dowsers.com/the-dowser-posts/.*')], dowser_extract)
-update_feed('https://gwennseemel.com/sitemap.xml', 'the-dowsers', [re.compile(r'https://gwennseemel.com/.*')], default_extract)
-update_feed('https://dazeland.com/sitemap.xml', 'the-dowsers', [re.compile(r'https://dazeland.com/.*')], dazeland_extract)
+update_feed('https://gwennseemel.com/sitemap.xml', 'gwenn-seemel', [re.compile(r'https://gwennseemel.com/.*')], default_extract)
+update_feed('https://dazeland.com/sitemap.xml', 'dazeland', [re.compile(r'https://dazeland.com/.*')], dazeland_extract)
