@@ -49,7 +49,9 @@ def feed_from_atom(f):
     fe.content(e.find("content").get_text(), type="html")
     fe.summary(e.find("summary").get_text())
     fe.link(href=e.find("link").get("href"))
-    fe.media.thumbnail(url=e.find("media:thumbnail").get("url"))
+    thumbnail = e.find("media:thumbnail")
+    if thumbnail:
+      fe.media.thumbnail(url=thumbnail.get("url"))
   return fg
 
 
@@ -143,5 +145,16 @@ def default_extract(url, bs, fe):
     fe.media.thumbnail(url=img.get("src"))
   fe.link(href=url)
 
+def dazeland_extract(url, bs, fe):
+  fe.id(url)
+  fe.title(bs.find("title").string.strip())
+  fe.content(str(bs.find(style="width: 844px")), type="html")
+  fe.summary(bs.find("p").get_text())
+  img = bs.find("img")
+  if img:
+    fe.media.thumbnail(url=img.get("src"))
+  fe.link(href=url)
+
 update_feed('https://the-dowsers.com', 'the-dowsers', [re.compile(r'https://www.the-dowsers.com/the-dowser-posts/.*')], dowser_extract)
 update_feed('https://gwennseemel.com/sitemap.xml', 'the-dowsers', [re.compile(r'https://gwennseemel.com/.*')], default_extract)
+update_feed('https://dazeland.com/sitemap.xml', 'the-dowsers', [re.compile(r'https://dazeland.com/.*')], dazeland_extract)
