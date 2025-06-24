@@ -4,6 +4,7 @@ from feedgen.feed import FeedGenerator
 from urllib.request import urljoin
 from bs4 import BeautifulSoup
 import email.utils
+from more_itertools import flatten
 
 os.system("mkdir dist")
 
@@ -53,7 +54,7 @@ def feed_from_atom(f):
 
 
 def get_sitemap_bs(url, last_update=None):
-  print(f"Info: last update at {last_update}.")
+  print(f"({url}) Info: last update at {last_update}.")
   url = urljoin(url,'/sitemap.xml')
   
   headers = {}
@@ -62,69 +63,85 @@ def get_sitemap_bs(url, last_update=None):
   head = requests.head(url, headers=headers)
   if 'last-modified' in head.headers:
     last_modified = email.utils.parsedate_to_datetime(head.headers['last-modified'])
-    print(f"Info: last modified at {last_modified}.")
+    print(f"({url}) Info: last modified at {last_modified}.")
     if last_update and last_modified < last_update:
       print("Info: No need to get sitemap")
       return BeautifulSoup('<sitemapindex></sitemapindex>', features="xml")
   return BeautifulSoup(requests.get(url).content, features="xml")
 
-def the_dowsers_articles(last_update=None):
-  return list(map(lambda x: x.string.strip(), get_sitemap_bs("https://the-dowsers.com", last_update).find_all("loc", string=re.compile(r'https://www.the-dowsers.com/the-dowser-posts/.*'))))
+def get_articles(url, regexes, last_update=None):
+  return flatten([list(map(lambda x: x.string.strip(), get_sitemap_bs(url, last_update).find_all("loc", string=regex))) for regex in regexes])
 
-def the_dowsers_feed():
+def update_feed(url, feed_name, regexes, parse_func):
   global NUM_LATEST_FEEDS
 
   fg = None
   new_articles = None
 
-  if os.path.exists("dist/the-dowsers_historical.atom"):
-    fg = feed_from_atom("dist/the-dowsers_historical.atom")
+  if os.path.exists(f"dist/{feed_name}_historical.atom"):
+    fg = feed_from_atom(f"dist/{feed_name}_historical.atom")
     new_articles = list(filter(
       lambda url: url not in list(map(
         lambda e: e.id(),
         fg.entry()
       )),
-      the_dowsers_articles(fg.entry()[-1].updated())
+      get_articles(url, regexes, fg.entry()[-1].updated())
     ))
   else:
     fg = FeedGenerator()
     fg.load_extension('media', atom=True, rss=True)
 
-    fg.id('http://the-dowsers.com')
-    fg.title('The Dowsers')
-    fg.link( href='http://the-dowsers.com', rel='alternate' )
-    fg.link( href='http://the-dowsers.com', rel='self' )
-    fg.logo('https://cdn.prod.website-files.com/669681ffaf2044783667eeb1/669681ffaf2044783667eed8_the-dowsers-logo-p-500.png')
-    fg.subtitle('A Magazine About Playlists')
+    homepage = BeautifulSoup(requests.get(url).content, 'html.parser')
+
+    fg.id(url)
+    fg.link(href=url, rel='alternate')
+    fg.link(href=url, rel='self')
+    fg.logo(homepage.find('link', rel='icon').get('href'))
+    fg.title(homepage.find('title'.get_text()))
+    #fg.subtitle('A Magazine About Playlists')
     fg.language('en')
 
-    new_articles = the_dowsers_articles()
+    new_articles = get_articles(url, regexes)
 
-  print(f"Info: {len(new_articles)} new articles.")
+  print(f"({url}) Info: {len(new_articles)} new articles.")
 
   for i, url in enumerate(new_articles):
-    print(f"Info: scraping article {i+1}/{len(new_articles)}: {url}")
+    print(f"({url}) Info: scraping article {i+1}/{len(new_articles)}: {url}")
     bs = BeautifulSoup(requests.get(url).content, 'html.parser')
     fe = fg.add_entry()
 
-    blog_post = bs.find(class_="blog-posts-block")
-    spotify_embed = bs.find(class_="spotify-embeded")
-
-    fe.id(url)
-    fe.title(bs.find("title").string.strip())
-    fe.content(str(blog_post), type="html")
-    if spotify_embed:
-      fe.content("<div>"+fe.content()['content']+str(spotify_embed.find("iframe"))+"</div>", type="html")
-    fe.summary(blog_post.find(class_="paragraph").get_text())
-    fe.media.thumbnail(url=bs.find(class_="blog-image").get("src"))
-    fe.link(href=url)
-
+    parse_func(url, bs, fe)
   
-  fg.atom_file("dist/the-dowsers_historical.atom", pretty=True)
-  fg_latest = feed_from_atom("dist/the-dowsers_historical.atom")
+  fg.atom_file(f"dist/{feed_name}_historical.atom", pretty=True)
+  fg_latest = feed_from_atom(f"dist/{feed_name}_historical.atom")
 
   for e in fg_latest.entry()[:-NUM_LATEST_FEEDS]:
     fg_latest.remove_entry(e)
-  fg_latest.atom_file("dist/the-dowsers.atom", pretty=True)
+  fg_latest.atom_file(f"dist/{feed_name}.atom", pretty=True)
 
-the_dowsers_feed()
+def dowser_extract(url, bs, fe):
+  blog_post = bs.find(class_="blog-posts-block")
+  spotify_embed = bs.find(class_="spotify-embeded")
+
+  fe.id(url)
+  fe.title(bs.find("title").string.strip())
+  fe.content(str(blog_post), type="html")
+  if spotify_embed:
+    fe.content("<div>"+fe.content()['content']+str(spotify_embed.find("iframe"))+"</div>", type="html")
+  fe.summary(blog_post.find(class_="paragraph").get_text())
+  fe.media.thumbnail(url=bs.find(class_="blog-image").get("src"))
+  fe.link(href=url)
+
+
+def default_extract(url, bs, fe):
+  fe.id(url)
+  fe.title(bs.find("title").string.strip())
+  fe.content(str(bs.find("main")), type="html")
+  fe.summary(bs.find("p").get_text())
+  img = bs.find("img")
+  if img:
+    fe.media.thumbnail(url=img.get("src"))
+  fe.link(href=url)
+
+update_feed('https://the-dowsers.com', 'the-dowsers', [re.compile(r'https://www.the-dowsers.com/the-dowser-posts/.*')], dowser_extract)
+update_feed('https://gwennseemel.com/sitemap.xml', 'the-dowsers', [re.compile(r'https://gwennseemel.com/.*')], default_extract)
