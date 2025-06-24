@@ -99,7 +99,7 @@ def update_feed(url, feed_name, regexes, parse_func):
     fg.link(href=url, rel='alternate')
     fg.link(href=url, rel='self')
     fg.logo(homepage.find('link', rel='icon').get('href'))
-    fg.title(homepage.find('title'.get_text()))
+    fg.title(homepage.find('title').get_text())
     #fg.subtitle('A Magazine About Playlists')
     fg.language('en')
 
