@@ -72,7 +72,7 @@ def get_sitemap_bs(url, last_update=None):
   return BeautifulSoup(requests.get(url).content, features="xml")
 
 def get_articles(url, regexes, last_update=None):
-  return flatten([list(map(lambda x: x.string.strip(), get_sitemap_bs(url, last_update).find_all("loc", string=regex))) for regex in regexes])
+  return list(flatten([list(map(lambda x: x.string.strip(), get_sitemap_bs(url, last_update).find_all("loc", string=regex))) for regex in regexes]))
 
 def update_feed(url, feed_name, regexes, parse_func):
   global NUM_LATEST_FEEDS
