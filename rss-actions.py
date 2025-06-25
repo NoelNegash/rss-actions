@@ -37,7 +37,9 @@ def feed_from_atom(f):
   fg.link(href=bs.find("link", rel='alternate').get_text(), rel='alternate')
   fg.link(href=bs.find("link", rel='self').get_text(), rel='self')
   fg.logo(bs.find("logo").get_text())
-  fg.subtitle(bs.find("subtitle").get_text())
+  subtitle = bs.find("subtitle")
+  if subtitle:
+    fg.subtitle(subtitle.get_text())
 
   for e in reversed(bs.find_all("entry")):
     fe = fg.add_entry()
