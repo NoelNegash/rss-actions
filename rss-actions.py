@@ -114,7 +114,10 @@ def update_feed(url, feed_name, regexes, parse_func):
     bs = BeautifulSoup(requests.get(url).content, 'html.parser')
     fe = fg.add_entry()
 
-    parse_func(url, bs, fe)
+    try:
+      parse_func(url, bs, fe)
+    except:
+      print("Error parsing:", url)
   
   fg.atom_file(f"dist/{feed_name}_historical.atom", pretty=True)
   fg_latest = feed_from_atom(f"dist/{feed_name}_historical.atom")
