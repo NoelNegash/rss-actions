@@ -157,6 +157,6 @@ def dazeland_extract(url, bs, fe):
     fe.media.thumbnail(url=img.get("src"))
   fe.link(href=url)
 
+update_feed('https://dazeland.com', 'dazeland', [re.compile(r'https://www.dazeland.com/.*')], dazeland_extract)
 update_feed('https://the-dowsers.com', 'the-dowsers', [re.compile(r'https://www.the-dowsers.com/the-dowser-posts/.*')], dowser_extract)
 update_feed('https://gwennseemel.com', 'gwenn-seemel', [re.compile(r'https://gwennseemel.com/.*')], default_extract)
-update_feed('https://dazeland.com', 'dazeland', [re.compile(r'https://dazeland.com/.*')], dazeland_extract)

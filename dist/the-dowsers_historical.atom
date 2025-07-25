@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
   <id>https://the-dowsers.com</id>
   <title>The Dowsers</title>
   <updated>2025-07-24T09:10:29.730960+00:00</updated>
-  <link href="https://the-dowsers.com" rel="alternate"/>
-  <link href="https://the-dowsers.com" rel="self"/>
+  <link href="" rel="alternate"/>
+  <link href="" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>https://cdn.prod.website-files.com/img/favicon.ico</logo>
   <entry>
