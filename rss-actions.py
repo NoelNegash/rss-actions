@@ -49,7 +49,10 @@ def feed_from_atom(f):
     fe.id(e.find("id").get_text())
     fe.title(e.find("title").get_text())
     fe.content(e.find("content").get_text(), type="html")
-    fe.summary(e.find("summary").get_text())
+    if e.find("summary"):
+      fe.summary(e.find("summary").get_text())
+    else:
+      fe.summary("")
     fe.link(href=e.find("link").get("href"))
     thumbnail = e.find("media:thumbnail")
     if thumbnail:
@@ -152,13 +155,13 @@ def default_extract(url, bs, fe):
 
 def dazeland_extract(url, bs, fe):
   fe.id(url)
+  fe.link(href=url)
   fe.title(bs.find("title").string.strip())
   fe.content(str(bs.find(style="width: 844px")), type="html")
   fe.summary(bs.find("p").get_text())
   img = bs.find("img")
   if img:
     fe.media.thumbnail(url=img.get("src"))
-  fe.link(href=url)
 
 update_feed('https://dazeland.com', 'dazeland', [re.compile(r'https://www.dazeland.com/.+')], dazeland_extract)
 update_feed('https://the-dowsers.com', 'the-dowsers', [re.compile(r'https://www.the-dowsers.com/the-dowser-posts/.*')], dowser_extract)
