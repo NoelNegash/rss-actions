@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
   <id>https://dazeland.com</id>
   <title>Dazeland - On ne vous fera pas suer avec les cookies !</title>
   <updated>2025-07-28T08:32:14.771715+00:00</updated>
-  <link href="https://dazeland.com" rel="alternate"/>
-  <link href="https://dazeland.com" rel="self"/>
+  <link href="" rel="alternate"/>
+  <link href="" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>favicon.ico</logo>
   <entry>
@@ -7994,6 +7994,7 @@ Chess I hesitated for a long time before sharing my burning passion for chess in
     <updated>2025-07-28T08:43:59.980290+00:00</updated>
     <content type="html">None</content>
     <link href="https://www.dazeland.com/en/Jukebox.html"/>
+    <summary/>
   </entry>
   <entry>
     <id>https://www.dazeland.com/en/Jeux_Video.html</id>
@@ -8001,6 +8002,7 @@ Chess I hesitated for a long time before sharing my burning passion for chess in
     <updated>2025-07-28T08:43:59.660138+00:00</updated>
     <content type="html">None</content>
     <link href="https://www.dazeland.com/en/Jeux_Video.html"/>
+    <summary/>
   </entry>
   <entry>
     <id>https://www.dazeland.com/en/Amiga/Zork.html</id>
@@ -108655,6 +108657,7 @@ J’ai longuement hésité à partager ma passion dévorante pour le jeu d’éc
     <updated>2025-07-28T08:37:57.523603+00:00</updated>
     <content type="html">None</content>
     <link href="https://www.dazeland.com/fr/Jukebox.html"/>
+    <summary/>
   </entry>
   <entry>
     <id>https://www.dazeland.com/fr/Jeux_Video.html</id>
