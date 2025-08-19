@@ -34,4 +34,4 @@ jobs:
     - name: Upload generated feeds
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: python rss-actions.py && git config --global user.name 'Noel Negash' && git config --global user.email 'noelnegash@users.noreply.github.com'&& git add . && git commit -m "generated feeds" && git push -u
+      run: python rss-actions.py && git config --global user.name 'Noel Negash' && git config --global user.email 'noelnegash@users.noreply.github.com' && git add .  && (git diff-index --quiet HEAD || (git commit -m "generated feeds" && git push -u))

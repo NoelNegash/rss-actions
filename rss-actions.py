@@ -19,6 +19,7 @@ NUM_LATEST_FEEDS = 30
 - partition into historical.atom and "latest".atom
 - check last-modified of sitmap.xml, check if post id (url) already an entry
 - add spotify-embed if possible
+- stop git erroring out on no updates
 '''
 
 ''' TODO
