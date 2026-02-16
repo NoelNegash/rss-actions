@@ -8,6 +8,196 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>/images/home/favicon/android-icon-192x192.png</logo>
   <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/selection-animal/</id>
+    <title>Sélection de Peintures Animalières de l’Artiste Gwenn Seemel</title>
+    <updated>2026-02-16T02:07:33.689098+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / Selection d’Art Animalier&lt;/h1&gt;
+&lt;div class="artwork-grid"&gt;
+&lt;a href="/fr/oeuvres/2025/lionne"&gt;&lt;img alt="peinture d’une lionne à crinière, œuvre d’art réalisée par l’artiste non binaire Gwenn Seemel" src="/images/2025/2025LionessT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/abc/a"&gt;&lt;img alt="illustration pour un abécédaire poisson-ange par l’artiste philadelphienne Gwenn Seemel" src="/images/2020/2020ABCa.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/abc/e"&gt;&lt;img alt="échidné peinutre pour l’alphabet de l’artiste du New Jersey Gwenn Seemel" src="/images/2020/2020ABCe.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/sentrapprivoiser/chance"&gt;&lt;img alt="portrait de corgi souriant par l’artiste de Lambertville Gwenn Seemel" src="/images/2022/2022LBVchanceT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/crime-contre-nature/gecko"&gt;&lt;img alt="peinture de gecko par l’artiste animalière Gwenn Seemel" src="/images/2012/2012CANGeckoT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2013/pegase"&gt;&lt;img alt="cheval Appaloosa Pégase dans l’espace peint par l’artiste surréaliste Gwenn Seemel" src="/images/2013/2013PegasusT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2016/chimpanze"&gt;&lt;img alt="peinture d’un chimpanzé et d’un canari par l’artiste animalière Gwenn Seemel" src="/images/2016/2016ChimpanzeeCanaryT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2014/chevre-mouton"&gt;&lt;img alt="peinture d’une chèvre et de plusieurs moutons réalisée par l’artiste athée Gwenn Seemel" src="/images/2014/2014GoatSheepT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2025/1-zoo"&gt;&lt;img alt="le zoo de Philadelphie par l’artist Gwenn Seemel" src="/images/2025/20251Zoo2T-byGwennSeemel.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2017/coccinelle"&gt;&lt;img alt="coccinelles, œuvres d’art d’insectes réalisées par l’artiste Gwenn Seemel" src="/images/2017/2017LadybugT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/crime-contre-nature/manchot"&gt;&lt;img alt="bébé manchot empereur et son parent, œuvre d’art de l’artiste non binaire Gwenn Seemel" src="/images/2012/2012CANPenguinT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2017/rouzic"&gt;&lt;img alt="peinture de chien épagneul breton" src="/images/2017/2017RouzicT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2020/vaches-licornes"&gt;&lt;img alt="vache et veau licorne arc-en-ciel, peints par l’artiste animalière Gwenn Seemel" src="/images/2020/2020UnicowsT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2022/canard"&gt;&lt;img alt="peinture de canard coloré comme un drapeau de la fierté, image par Gwenn Seemel" src="/images/2022/2022DuckT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/crime-contre-nature/renard"&gt;&lt;img alt="peinture d’art représentant un renard roux par Gwenn Seemel" src="/images/2012/2012CANFoxT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2011/lauan"&gt;&lt;img alt="portrait de chat par Gwenn Seemel" src="/images/2011/2011LauanT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2020/colibri"&gt;&lt;img alt="peinture d’un colibri sur une branche par Gwenn Seemel" src="/images/2020/2020HummingbirdT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2024/tigres"&gt;&lt;img alt="deux tigres qui s’écoutent" src="/images/2024/2024TigersPrincetonPDARpartnershipT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/tout-va-bien/panda"&gt;&lt;img alt="art surréaliste de panda par Gwenn Seemel" src="/images/2022/2022EFpandaT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/tout-va-bien/qui-je-suis"&gt;&lt;img alt="art surréaliste d’oiseau par Gwenn Seemel" src="/images/2023/2023EFmyselvesT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/tout-va-bien/hippocampe"&gt;&lt;img alt="art surréaliste d’hippocampe par Gwenn Seemel" src="/images/2023/2023EFhippocampusT.jpg"/&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;p&gt;
+      Au cours des dernières décennies, j’ai réalisé des centaines de tableaux animaliers: voici un petit aperçu de cette œuvre.
+&lt;/p&gt;
+&lt;p&gt;
+      Je peins parfois des portraits d’animaux que j’adore et, parfois, des personnes qui apprécient mon art &lt;a href="/fr/boutique/personnalisee"&gt;me commandent des portraits de leurs animaux de compagnie&lt;/a&gt;. Je crée souvent des séries d’art animalier autour de différents thèmes, comme &lt;a href="/fr/oeuvres/crime-contre-nature"&gt;la diversité de la nature&lt;/a&gt; ou &lt;a href="/fr/oeuvres/tout-va-bien"&gt;l’apprentissage socio-émotionnel&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/selection-animal/"/>
+    <summary>
+      Au cours des dernières décennies, j’ai réalisé des centaines de tableaux animaliers: voici un petit aperçu de cette œuvre.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2025/2025LionessT.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/selected-animal/</id>
+    <title>Selected Animal Paintings by Fine Artist Gwenn Seemel</title>
+    <updated>2026-02-16T02:07:33.511646+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / Selected Animal Art&lt;/h1&gt;
+&lt;div class="artwork-grid"&gt;
+&lt;a href="/artwork/2025/lioness"&gt;&lt;img alt="fine art maned lioness painting by nonbinary artist Gwenn Seemel" src="/images/2025/2025LionessT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/abc/a"&gt;&lt;img alt="angelfish alphabet book illustration by Philadelphia artist Gwenn Seemel" src="/images/2020/2020ABCa.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/abc/e"&gt;&lt;img alt="echidna art for alphabet book by New Jersey artist Gwenn Seemel" src="/images/2020/2020ABCe.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/friend-request/chance"&gt;&lt;img alt="smiling corgi portrait by Lambertville artist Gwenn Seemel" src="/images/2022/2022LBVchanceT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/crime-against-nature/gecko"&gt;&lt;img alt="gecko painting by animal artist Gwenn Seemel" src="/images/2012/2012CANGeckoT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2013/pegasus"&gt;&lt;img alt="Appaloosa horse Pegasus in space painted by surreal artist Gwenn Seemel" src="/images/2013/2013PegasusT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2016/chimpanzee"&gt;&lt;img alt="chimpanzee and canary painting by animal artist Gwenn Seemel" src="/images/2016/2016ChimpanzeeCanaryT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2014/goat-sheep"&gt;&lt;img alt="fine art goat and sheep painting by atheist artist Gwenn Seemel" src="/images/2014/2014GoatSheepT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2025/1-zoo"&gt;&lt;img alt="52 Weeks of Firsts art celebrating the Philadelphia Zoo by Philadelphia-area artist Gwenn Seemel" src="/images/2025/20251Zoo2T-byGwennSeemel.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2017/ladybug"&gt;&lt;img alt="ladybug insect art by nature artist Gwenn Seemel" src="/images/2017/2017LadybugT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/crime-against-nature/penguin"&gt;&lt;img alt="emperor penguin baby and parent, fine art by nonbinary artist Gwenn Seemel" src="/images/2012/2012CANPenguinT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2017/rouzic"&gt;&lt;img alt="Brittany Spaniel dog painting" src="/images/2017/2017RouzicT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2020/unicows"&gt;&lt;img alt="rainbow unicorn cow and calf, painted by animal artist Gwenn Seemel" src="/images/2020/2020UnicowsT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2022/duck"&gt;&lt;img alt="intersex inclusive progress pride flag duck painting by Gwenn Seemel" src="/images/2022/2022DuckT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/crime-against-nature/fox"&gt;&lt;img alt="red fox fine art painting by Gwenn Seemel" src="/images/2012/2012CANFoxT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2011/lauan"&gt;&lt;img alt="custom cat portrait by Gwenn Seemel" src="/images/2011/2011LauanT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2020/hummingbird"&gt;&lt;img alt="hummingbird on a branch painting by Gwenn Seemel" src="/images/2020/2020HummingbirdT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2024/tigers"&gt;&lt;img alt="sticker design for Princeton University" src="/images/2024/2024TigersPrincetonPDARpartnershipT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/everythings-fine/panda"&gt;&lt;img alt="surreal panda art by Gwenn Seemel" src="/images/2022/2022EFpandaT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/everythings-fine/myselves"&gt;&lt;img alt="chickadee surreal art by Gwenn Seemel" src="/images/2023/2023EFmyselvesT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/everythings-fine/hippocampus"&gt;&lt;img alt="seahorse surreal art by Gwenn Seemel" src="/images/2023/2023EFhippocampusT.jpg"/&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;p&gt;
+      Over the last few decades, I’ve created hundreds of animal paintings: these are a small sample of that work. 
+&lt;/p&gt;
+&lt;p&gt;
+      Sometimes, I make portraits of animals I love and, other times, people who love my work &lt;a href="/shop/custom-art"&gt;hire me to paint their pets’ portraits&lt;/a&gt;. Often, I create animal art collections around different themes, like &lt;a href="/artwork/crime-against-nature"&gt;nature’s queerness&lt;/a&gt; or  &lt;a href="/artwork/everythings-fine"&gt;social emotional learning&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/selected-animal/"/>
+    <summary>
+      Over the last few decades, I’ve created hundreds of animal paintings: these are a small sample of that work. 
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2025/2025LionessT.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/selection-portrait/</id>
+    <title>Sélection de Portraits Peints par l’Artiste Gwenn Seemel, Originaire de la Région de Philadelphie</title>
+    <updated>2026-02-16T02:07:33.384648+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / Sélection de Portraits&lt;/h1&gt;
+&lt;div class="artwork-grid"&gt;
+&lt;a href="/fr/oeuvres/2005/guillaume"&gt;&lt;img alt="portrait fait sur commande de William Hurt, lauréat d’un Oscar" src="/images/2005/2005GuillaumeT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/public-faces/janice-w"&gt;&lt;img alt="portrait de la juge Janice Wilson du comté de Multnomah par l’artiste de Portland Gwenn Seemel" src="/images/2005/2005PFJaniceWT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2011/molly"&gt;&lt;img alt="portrait personnalisé d’une petite fille à qui il manque les dents de devant" src="/images/2011/2011MollyT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/snow-days/wayne"&gt;&lt;img alt="portrait de Wayne Garcia peint par l’artiste de Portland Gwenn Seemel" src="/images/2004/2004SDWayneT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2025/th-fannie-lou-hamer"&gt;&lt;img alt="tableau représentant Fannie Lou Hamer en train de parler, portrait réalisé par l’artiste du New Jersey Gwenn Seemel" src="/images/2025/2025THfannieLouHamerT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/subjective/richard"&gt;&lt;img alt="échec et mat aux échecs, portrait du père de l’artiste" src="/images/2009/2009SuRichardGST.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2021/mona-mary-alexandra"&gt;&lt;img alt="portrait d’une grand-mère, d’une mère, et d’un bébé" src="/images/2021/2021MonaMaryAlexandraT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2019/jwj-sanchioni"&gt;&lt;img alt="portrait d’un organisateur syndical, peinture à l’acrylique de Gwenn Seemel" src="/images/2019/2019jwjSanchioniT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/magie-empathique/nikki-moe"&gt;&lt;img alt="un enfant et sa maman portant un hijab arc-en-ciel, double portrait réalisé par l’artiste Gwenn Seemel, originaire de la région de Philadelphie" src="/images/2017/2017emNikkiMoeFT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2024/carmen"&gt;&lt;img alt="l’auteure Carmen Machado, peinte par l’artiste Gwenn Seemel, originaire de la région de Philadelphie" src="/images/2024/2024CarmenT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/sentrapprivoiser/cindy-regan"&gt;&lt;img alt="portrait lumineux d’un enfant elfe peint par l’artiste de Lambertville, Gwenn Seemel" src="/images/2022/2022LBVreganT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/apple-pie/nam"&gt;&lt;img alt="portrait d’un Oncle Sam vietnamo-américain" src="/images/2008/2008APNamT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/apple-pie/luis"&gt;&lt;img alt="portrait d’un Superman mexicano-américain" src="/images/2008/2008APLuisT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2025/th-james-baldwin"&gt;&lt;img alt="portrait de l’auteur et militant James Baldwin par Gwenn Seemel, lauréate du programme New Jersey Individual Artist Fellowship 2026" src="/images/2025/2025THjamesBaldwinT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2014/kirk"&gt;&lt;img alt="peinture murale de Kirk Reeves à Portland, Oregon" src="/images/2014/2014KirkInSituD.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2023/yawatta"&gt;&lt;img alt="tableau d’une femme avec un espace entre les dents de devant" src="/images/2023/2023YawattaT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2004/darin"&gt;&lt;img alt="portrait d’un homme chauve" src="/images/2004/2004DarinT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2006/jack"&gt;&lt;img alt="portrait d’un homme blond" src="/images/2006/2006JackT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/swollen/maxine"&gt;&lt;img alt="tableau représentant un adolescent et un volcan" src="/images/2007/2007SwMaxine07T.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/fr/oeuvres/2017/trump-hello"&gt;&lt;img alt="portrait critique de Donald Trump de l’artiste du New Jersey Gwenn Seemel" src="/images/2017/2017TrumpHelloT.jpg"/&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;p&gt;
+      Depuis 2003, j’ai réalisé des centaines de portraits: voici un petit aperçu de cette œuvre.
+&lt;/p&gt;
+&lt;p&gt;
+      Je peins parfois des personnes qui me sont chères et, parfois, des personnes qui apprécient mon art &lt;a href="/fr/boutique/personnalisee"&gt;me commandent leur portrait&lt;/a&gt;. Je crée souvent des séries de portraits, regroupant des individus autour de différents thèmes, comme ce que cela veut dire &lt;a href="/fr/oeuvres/swollen"&gt;“être femme”&lt;/a&gt; ou &lt;a href="/fr/oeuvres/apple-pie"&gt;l’identité américaine&lt;/a&gt;. De temps à autre, je peins des célébrités, et je préfère rencontrer les personnes que je représente. Ainsi, certains des visages reconnaissables ci-dessus—dont celui de &lt;a href="/fr/blog/2025/0515-william-hurt"&gt;William Hurt&lt;/a&gt;—sont des personnes que j’ai rencontrées.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/selection-portrait/"/>
+    <summary>
+      Depuis 2003, j’ai réalisé des centaines de portraits: voici un petit aperçu de cette œuvre.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2005/2005GuillaumeT.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/selected-portrait/</id>
+    <title>Selected Portraits by Philadelphia-area Artist Gwenn Seemel</title>
+    <updated>2026-02-16T02:07:33.136864+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / Selected Portraits&lt;/h1&gt;
+&lt;div class="artwork-grid"&gt;
+&lt;a href="/artwork/2005/guillaume"&gt;&lt;img alt="commissioned portrait of Academy Award winner William Hurt" src="/images/2005/2005GuillaumeT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/public-faces/janice-w"&gt;&lt;img alt="Judge Janice Wilson of Multnomah County, portrait by Portland artist Gwenn Seemel" src="/images/2005/2005PFJaniceWT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2011/molly"&gt;&lt;img alt="custom portrait of a little girl with missing front teeth" src="/images/2011/2011MollyT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/snow-days/wayne"&gt;&lt;img alt="Wayne Garcia portrait painted by Portland artist Gwenn Seemel" src="/images/2004/2004SDWayneT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2025/th-fannie-lou-hamer"&gt;&lt;img alt="painting of Fannie Lou Hamer speaking, portrait by New Jersey artist Gwenn Seemel" src="/images/2025/2025THfannieLouHamerT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/subjective/richard"&gt;&lt;img alt="checkmate in chess painting moment, portrait of the artist’s father" src="/images/2009/2009SuRichardGST.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2021/mona-mary-alexandra"&gt;&lt;img alt="fine art custom portrait of a grandmother, mother, and child" src="/images/2021/2021MonaMaryAlexandraT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2019/jwj-sanchioni"&gt;&lt;img alt="portrait of a labor organizer, fine art by Gwenn Seemel" src="/images/2019/2019jwjSanchioniT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/empathetic-magic/nikki-moe"&gt;&lt;img alt="rainbow hijab mom and child, double portrait by Philadelphia-area artist Gwenn Seemel" src="/images/2017/2017emNikkiMoeFT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2024/carmen"&gt;&lt;img alt="author Carmen Machado painted by Philadelphia-area artist Gwenn Seemel" src="/images/2024/2024CarmenT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/friend-request/cindy-regan"&gt;&lt;img alt="glowing elf-child portrait painted by Lambertville artist Gwenn Seemel" src="/images/2022/2022LBVreganT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/apple-pie/nam"&gt;&lt;img alt="portrait of a Vietnamese-American Uncle Sam" src="/images/2008/2008APNamT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/apple-pie/luis"&gt;&lt;img alt="portrait of a Mexican-American Superman" src="/images/2008/2008APLuisT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2025/th-james-baldwin"&gt;&lt;img alt="author and activist James Baldwin painted by 2026 NJ Individual Artist Fellow Gwenn Seemel" src="/images/2025/2025THjamesBaldwinT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2014/kirk"&gt;&lt;img alt="Kirk Reeves mural in Portland, Oregon" src="/images/2014/2014KirkInSituD.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2023/yawatta"&gt;&lt;img alt="painting of a woman with a gap between her front teeth" src="/images/2023/2023YawattaT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2004/darin"&gt;&lt;img alt="portrait of a bald man" src="/images/2004/2004DarinT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2006/jack"&gt;&lt;img alt="portrait of a blond man painted on monk’s cloth" src="/images/2006/2006JackT.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/swollen/maxine"&gt;&lt;img alt="painting of an adolescent and a volcano" src="/images/2007/2007SwMaxine07T.jpg"/&gt;&lt;/a&gt;
+&lt;a href="/artwork/2017/trump-hello"&gt;&lt;img alt="Donald Trump the Hello Shitty President, painting by New Jersey artist Gwenn Seemel" src="/images/2017/2017TrumpHelloT.jpg"/&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;p&gt;
+      Since 2003, I’ve created hundreds of portraits: these are a small sample of that work. 
+&lt;/p&gt;
+&lt;p&gt;
+      Sometimes, I paint people I love and, other times, people who love my work &lt;a href="/shop/custom-art"&gt;hire me to paint their portrait&lt;/a&gt;. Often, I create portrait collections, gathering individuals around different themes, like what it means to be a &lt;a href="/artwork/swollen"&gt;woman&lt;/a&gt; and what it means to be an &lt;a href="/artwork/apple-pie"&gt;American&lt;/a&gt;. Every now and then I paint celebrities, and I prefer to meet the people I’m portraying, meaning that some of the recognizable faces above—including &lt;a href="/blog/2025/0515-william-hurt"&gt;William Hurt&lt;/a&gt;—are people I’ve met.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/selected-portrait/"/>
+    <summary>
+      Since 2003, I’ve created hundreds of portraits: these are a small sample of that work. 
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2005/2005GuillaumeT.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
     <id>https://gwennseemel.com/fr/blog/2026/0211-new-jersey-individual-artist-fellowship/</id>
     <title>Un Prix Artistique</title>
     <updated>2026-02-12T02:09:47.674353+00:00</updated>
