@@ -8,6 +8,82 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>/images/home/favicon/android-icon-192x192.png</logo>
   <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2026/250-statue/</id>
+    <title>Rainbow Statue of Liberty, Artwork by Gwenn Seemel</title>
+    <updated>2026-04-04T02:07:44.033396+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="../"&gt;2026&lt;/a&gt; / Statue de la Liberté&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="Statue de la Liberté arc-en-ciel, une œuvre de l’artiste Gwenn Seemel" src="/images/2026/2026Statue250.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Statue de la Liberté&lt;/i&gt; &lt;br/&gt;
+        2026&lt;br/&gt;
+        acrylique sur papier cartonné&lt;br/&gt;
+        36 x 28 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p class="price-tag"&gt;
+&lt;a href="/fr/coordonnees"&gt;&lt;b&gt;$800&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class="prints"&gt;
+&lt;a href="https://www.redbubble.com/shop/ap/179764435"&gt;&lt;b&gt;impression à la demande&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Voici la première fois que je peins cette icône américaine telle qu’en elle-même, mais la seconde fois que le concept d’elle apparaît dans mon art. En 2007 et 2008, je travaillais sur &lt;a href="/fr/oeuvres/apple-pie"&gt;&lt;i&gt;Apple Pie&lt;/i&gt;&lt;/a&gt;—une série consacrée à ce que signifie être américain—et j’ai fini par réaliser &lt;a href="/fr/oeuvres/apple-pie/gwenn"&gt;cet autoportrait sous les traits de la statue&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2026/250-statue/"/>
+    <summary>
+$800
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2026/2026Statue250.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2026/250-statue/</id>
+    <title>Rainbow Statue of Liberty, Artwork by Gwenn Seemel</title>
+    <updated>2026-04-04T02:07:43.961649+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="../"&gt;2026&lt;/a&gt; / Statue of Liberty&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="rainbow Statue of Liberty, art by New York area artist Gwenn Seemel" src="/images/2026/2026Statue250.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Statue of Liberty&lt;/i&gt; &lt;br/&gt;
+        2026&lt;br/&gt;
+        acrylic on archival board&lt;br/&gt;
+        14 x 11 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p class="price-tag"&gt;
+&lt;a href="/contact"&gt;&lt;b&gt;$800&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class="prints"&gt;
+&lt;a href="https://www.redbubble.com/shop/ap/179764435"&gt;&lt;b&gt;order prints&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    This is the first time I’ve painted this American icon as herself, but the second time the concept of her has appeared in my work. In 2007 and 2008 I was working on &lt;a href="/artwork/apple-pie"&gt;&lt;i&gt;Apple Pie&lt;/i&gt;&lt;/a&gt;, a series about what it means to be an American, and I ended up creating this &lt;a href="/artwork/apple-pie/gwenn"&gt;self-portrait as the statue&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2026/250-statue/"/>
+    <summary>
+$800
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2026/2026Statue250.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
     <id>https://gwennseemel.com/fr/blog/2026/0402-52-firsts-zoo-tortue/</id>
     <title>Peindre en Trois Dimensions</title>
     <updated>2026-04-03T02:22:45.924977+00:00</updated>
