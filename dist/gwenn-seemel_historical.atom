@@ -8,6 +8,157 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>/images/home/favicon/android-icon-192x192.png</logo>
   <entry>
+    <id>https://gwennseemel.com/fr/ia/</id>
+    <title>Pourquoi pas d’IA pour l’Artiste Gwenn Seemel</title>
+    <updated>2026-04-11T02:11:11.797025+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1 class="hello"&gt;Pourquoi pas d’IA?&lt;/h1&gt;
+&lt;section&gt;
+&lt;p&gt;
+        Je comprends que les gens vont utiliser l’IA, mais j’espère que cela se fait de manière réfléchie. Je vous encourage à en apprendre davantage sur cette technologie et sur son fonctionnement.
+&lt;/p&gt;
+&lt;h3&gt;Je n’utilise pas l’IA dans mon art, mes écrits, mes vidéos, ou mon site web, et ce, pour les raisons suivantes:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;h6&gt;&lt;li&gt;L’IA est une question de droit de travail.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        Cette technologie a été entraînée à partir les mots, images, vidéos, et code que nous avons tous publiés sur Internet. Aujourd’hui, l’IA constitue une industrie estimée à des centaines de milliards de dollars, et aucun d’entre nous n’a été rémunéré pour l’utilisation de ses mots, ses images, ses vidéos, ou ce code.
+&lt;/p&gt;
+&lt;p&gt;
+        De plus, cette technologie nécessite une aide humaine considérable pour pouvoir s’améliorer. Beaucoup de gens travaillant au développement de l’IA sont sévèrement sous-rémunérées. C’est particulièrement vrai lorsqu’elles sont chargées d’examiner des contenus violents ou explicites, une tâche profondément néfaste pour leur esprit et leur cœur.
+&lt;/p&gt;
+&lt;h6&gt;&lt;li&gt;L’IA ment.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        L’industrie qualifie les erreurs de l’IA comme des “hallucinations,” mais, quelle que soit la terminologie employée, il est impossible de faire confiance à cette technologie pour répondre correctement. Bien que des améliorations aient été apportées, Gemini de Google, par exemple, fournit encore des réponses contenant des informations inventées ou erronées des centaines de millions de fois par jour. [&lt;a href="https://www.nytimes.com/2026/04/07/technology/google-ai-overviews-accuracy.html"&gt;&lt;i&gt;New York Times&lt;/i&gt; avril 2026&lt;/a&gt;]
+&lt;/p&gt;
+&lt;h6&gt;&lt;li&gt;L’IA crée une dépendance—et c’est voulu.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        Malgré l’indignation publique face au danger que représentent des chatbots si complaisants qu’ils conduisent certains utilisateurs à la dépendance, voire à la psychose, l’IA reste obséquieuse. Lorsque cette technologie conforte les utilisateurs, ces derniers reviennent plus souvent; et lorsque les utilisateurs reviennent plus souvent, les entreprises de l’IA génèrent davantage de profits.
+&lt;/p&gt;
+&lt;h6&gt;&lt;li&gt;L’IA nous prive de notre droit à la vie privée.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        Lorsque vous sollicitez l’aide d’une IA, vos requêtes sont intégrées à son processus d’apprentissage. Pire encore: même si vous ne cherchez pas à dialoguer avec cette technologie, il est fort probable qu’elle ait été entraînée à partir de vos propres données. Compte tenu de la propension de l’IA à synthétiser les données de manière problématique—sans parler de son habitude de mentir—ChatGPT, Gemini, Claude, et tous les autres ne constituent pas seulement une atteinte à la vie privée: ils sont un véritable cauchemar.
+&lt;/p&gt;
+&lt;h6&gt;&lt;li&gt;L’IA est une catastrophe écologique.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        La quantité d’électricité consommée pour l’entraînement des IA, ainsi que l’énergie requise pour générer des réponses individuelles aux requêtes, sont difficiles à quantifier avec précision, mais elles n’en demeurent pas moins vertigineuses. Rien qu’en Amérique du Nord, les centres de données—dont bon nombre sont impliqués dans le développement et le fonctionnement de l’IA—consomment, à eux seuls, autant d’électricité qu’un pays tout entier. [&lt;a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117"&gt;&lt;i&gt;MIT News&lt;/i&gt; janvier 2025&lt;/a&gt;]
+&lt;/p&gt;
+&lt;h6&gt;&lt;li&gt;En l’état actuel, l’IA est une question de pouvoir.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        L’IA concentre la richesse et l’influence entre les mains d’un petit nombre d’individus, rendant la vie de plus en plus coûteuse et difficile pour le reste d’entre nous. 
+&lt;/p&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="Gwenn Seemel avec un autocollant “choose democracy”" src="/images/blog25/ChooseDemocracyGwenn.jpg"/&gt;
+&lt;figcaption&gt;
+        photo par Gwenn Seemel&lt;br/&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+        En théorie, l’intelligence artificielle a le potentiel de transformer le monde de manière positive. Le problème, c’est que ce que nous appelons aujourd’hui “IA” n’est en réalité qu’une tentative profondément imparfaite d’atteindre une intelligence artificielle &lt;b&gt;générale&lt;/b&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+        Au lieu de créer différents modèles d’IA hyper-spécialisés dans la résolution de problèmes précis, les géants de la technologie s’efforcent aujourd’hui, chacun de son côté, de bâtir leur propre modèle qu’ils croient super intelligent sur tous sujets. Ils échouent lamentablement à atteindre leur objectif, d’une manière qui nuit à notre santé ainsi qu’à notre planète.
+&lt;/p&gt;
+&lt;p&gt;
+        Mon expérience avec l’IA:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En 2023, j’ai réalisé &lt;a href="/fr/blog/2023/0101-ia-art-gwenn-seemel"&gt;une vidéo expliquant pourquoi l’IA ne m’inquiétait pas&lt;/a&gt; que je considère aujourd’hui comme erronée, mais uniquement sa dernière partie, dans laquelle j’encourageais tout le monde à jouer avec l’IA.&lt;/li&gt;
+&lt;li&gt;&lt;a href="/fr/blog/2023/0410-chatgpt-connait-mon-nom"&gt;ChatGPT a inventé une citation&lt;/a&gt;, prétendant que j’avais écrit un article que je n’avais jamais rédigé.&lt;/li&gt;
+&lt;li&gt;&lt;a href="/fr/blog/2024/1204-milan-art-studios"&gt;Le Milan Art Institute a annoncé qu’une de mes œuvres avaient été créées par une IA.&lt;/a&gt; Elle a mis beaucoup trop de temps à corriger son erreur et ne s’est jamais excusé.&lt;/li&gt;
+&lt;li&gt;J’ai fait &lt;a href="/fr/blog/2025/0701-ai-est-nocive"&gt;ma première déclaration anti-IA en 2025&lt;/a&gt;, après avoir été profondément agacée par un autre artiste.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/ia/"/>
+    <summary>
+        Je comprends que les gens vont utiliser l’IA, mais j’espère que cela se fait de manière réfléchie. Je vous encourage à en apprendre davantage sur cette technologie et sur son fonctionnement.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/blog25/ChooseDemocracyGwenn.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/ai/</id>
+    <title>Why No AI for Artist Gwenn Seemel</title>
+    <updated>2026-04-11T02:11:11.615943+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1 class="hello"&gt;Why No AI&lt;/h1&gt;
+&lt;section&gt;
+&lt;p&gt;
+        I understand that people are using AI, but my hope is that it’s done thoughtfully. Please learn more about this tech and how it works. 
+&lt;/p&gt;
+&lt;h4&gt;I choose to avoid using AI in my art, writing, videos, and website because:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;h6&gt;&lt;li&gt;AI is a labor issue.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        This tech was trained on words, images, videos, and code that we all published to the Internet. Now AI is an industry that’s worth hundreds of billions of dollars, and none of us have been paid for the use of our words, images, videos, and code.
+&lt;/p&gt;
+&lt;p&gt;
+        What’s more, this tech requires a lot of help from humans in order to improve. Many of the people who work in AI development are severely underpaid. This is especially true if they’re reviewing violent or explicit material, a job that is deeply harmful to their minds and hearts.
+&lt;/p&gt;
+&lt;h6&gt;&lt;li&gt;AI lies.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        The industry refers to AI’s errors as “hallucinations,” but, whatever the terminology, you cannot trust this tech to respond correctly to queries. Though there have been improvements, Google’s Gemini, for example, still gives answers that contain made-up or mistaken information hundreds of millions of times a day. [&lt;a href="https://www.nytimes.com/2026/04/07/technology/google-ai-overviews-accuracy.html"&gt;&lt;i&gt;New York Times&lt;/i&gt; April 2026&lt;/a&gt;]
+&lt;/p&gt;
+&lt;h6&gt;&lt;li&gt;AI is addictive—and it’s by design.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        Despite public outcry about the dangers of chatbots being so agreeable that they lead some users to dependency and psychosis, AI continues to affirm users to an extreme degree. When this tech makes people feel like they’re right, they come back more often, and, when users come back more often, AI companies make more money.
+&lt;/p&gt;
+&lt;h6&gt;&lt;li&gt;AI takes away our right to privacy.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        When you ask AI to help you, your queries become part of the tech’s training. Worse, even if you don’t seek out interactions with this tech, it has probably been trained on your information. Given AI’s tendency to synthesize data in problematic ways as well as its habit of lying, ChatGPT, Gemini, Claude, and all the rest aren’t just a privacy breach: they are a nightmare.
+&lt;/p&gt;
+&lt;h6&gt;&lt;li&gt;AI is an environmental catastrophe.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        The amount of power used to train AI as well as the energy needed to generate individual answers to queries is difficult to pin down precisely, but we know it’s a whole lot. Data centers in North America alone, many of which are involved in the development and running of AI, consume as much electricity as an entire country in themselves. [&lt;a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117"&gt;&lt;i&gt;MIT News&lt;/i&gt; January 2025&lt;/a&gt;]
+&lt;/p&gt;
+&lt;h6&gt;&lt;li&gt;As it stands, AI is about power.&lt;/li&gt;&lt;/h6&gt;
+&lt;p&gt;
+        And this time I mean it in a societal sense. The AI industry is consolidating wealth and influence with a small number of people, increasingly making life more expensive and difficult for the rest of us. 
+&lt;/p&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="Gwenn Seemel with a “choose democracy” sticker" src="/images/blog25/ChooseDemocracyGwenn.jpg"/&gt;
+&lt;figcaption&gt;
+        photo by Gwenn Seemel&lt;br/&gt;
+        (Statue of Liberty design available in my &lt;a href="https://www.redbubble.com/shop/ap/11926906"&gt;Redbubble shop&lt;/a&gt;!)
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+        In theory, artificial intelligence has the potential to change the world in positive ways. The problem is that what we call “AI” today is actually a deeply flawed attempt at artificial &lt;b&gt;general&lt;/b&gt; intelligence. 
+&lt;/p&gt;
+&lt;p&gt;
+        Instead of creating different AI models that are hyperfocused on solving specific problems, big tech companies today are each trying to build their own super-smart-about-absolutely-everything model. And they’re falling maddeningly short of their goal in ways that damage our health and our planet.
+&lt;/p&gt;
+&lt;p&gt;
+        My experience with AI:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In 2023, I made a &lt;a href="/blog/2023/0101-ai-art-gwenn-seemel"&gt;video about why AI didn’t worry me&lt;/a&gt; that I now see as misguided—but only the last part where I encourage you to play with AI.&lt;/li&gt;
+&lt;li&gt;&lt;a href="/blog/2023/0410-chatgpt-knows-my-name"&gt;ChatGPT invented a citation&lt;/a&gt;, saying I’d written an article that I hadn’t.&lt;/li&gt;
+&lt;li&gt;&lt;a href="/blog/2024/1204-milan-art-studios"&gt;Milan Art Institute announced that my art was made by AI&lt;/a&gt;, failed to correct their mistake for far too long, and never apologized.&lt;/li&gt;
+&lt;li&gt;I made my &lt;a href="/blog/2025/0701-ai-is-wrong"&gt;first anti-AI declaration&lt;/a&gt; in 2025 after getting really annoyed with another artist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/ai/"/>
+    <summary>
+        I understand that people are using AI, but my hope is that it’s done thoughtfully. Please learn more about this tech and how it works. 
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/blog25/ChooseDemocracyGwenn.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
     <id>https://gwennseemel.com/fr/blog/2026/0407-alchimie/</id>
     <title>Transformer l’Argent en Amour avec l’Art</title>
     <updated>2026-04-08T02:26:23.771116+00:00</updated>
