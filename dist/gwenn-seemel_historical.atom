@@ -8,6 +8,280 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>/images/home/favicon/android-icon-192x192.png</logo>
   <entry>
+    <id>https://gwennseemel.com/fr/blog/2026/0413-apprendre-ia/</id>
+    <title>Rester Imperturbable Face à l’IA</title>
+    <updated>2026-04-14T02:32:43.459142+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/blog"&gt;Blog&lt;/a&gt; / &lt;a href="/fr/blog/2026"&gt;2026&lt;/a&gt; / Rester Imperturbable Face à l’IA&lt;/h1&gt;
+&lt;p class="blog-date"&gt;
+    13 avril 2026
+&lt;/p&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;div style="padding:56.25% 0 0 0;position:relative;"&gt;&lt;iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" src="https://player.vimeo.com/video/1182626098?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Rester Imperturbable Face à l’IA"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src="https://player.vimeo.com/api/player.js"&gt;&lt;/script&gt;
+&lt;figcaption&gt;
+        [&lt;a href="#transcription"&gt;transcription&lt;/a&gt;]
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+&lt;a href="https://youtu.be/y85nqc2zm7M?si=5myXly9VW0kEEIsY"&gt;La vidéo&lt;/a&gt; de la Dr Fatima constitue un excellent point de départ pour s’initier à l’IA, et voici &lt;a href="https://osf.io/preprints/psyarxiv/t9u8g_v1"&gt;la recherche alarmante&lt;/a&gt; qu’elle y cite. Tu peux également consulter &lt;a href="/fr/ia"&gt;ma page “Pouquoi pa d’IA?”&lt;/a&gt;
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait d’une belle femme aux cheveux gris peint par Gwenn Seemel" src="/images/2026/2026Janet.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Janet&lt;/i&gt; &lt;br/&gt;
+        2026&lt;br/&gt;
+        acrylique sur papier&lt;br/&gt;
+        17 x 11 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div class="transcript-box"&gt;
+&lt;h5 id="transcription"&gt;TRANSCRIPTION&lt;/h5&gt;
+&lt;p&gt;
+    Voici le processus de création d’un portrait de femme, celle de Janet. Cette œuvre partage deux éléments essentiels avec tous les portraits que j’ai réalisés au fil des ans:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Elle est 100% réalisée par un être humain.&lt;/li&gt;
+&lt;li&gt;Pour peindre Janet, j’ai d’abord pris des photos d’elle, tout en cherchant à saisir la perception qu’elle a d’elle-même en lui posant des questions telles que: “comment les personnes qui te connaissent le mieux te décriraient-elles?”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    “Imperturbable” a-t-elle répondu.
+&lt;/p&gt;
+&lt;p&gt;
+    Janet a évoqué bien d’autres choses intéressantes, mais cet adjectif m’est resté en mémoire. En effet, dans les vingt ans et quelques à poser cette question, personne ne s’était jamais décrit de cette manière. Et jusqu’à ce que j’entende Janet le prononcer, je n’avais pas compris à quel point j’aimerais moi aussi être imperturbable.
+&lt;/p&gt;
+&lt;p&gt;
+    Surtout en ce moment. 
+&lt;/p&gt;
+&lt;p&gt;
+    À cause de...et bien, à cause de tout ce qui se passe. Mais aussi, à cause de l’IA.
+&lt;/p&gt;
+&lt;p&gt;
+    L’année dernière, j’ai ajouté le texte suivant dans le pied de page partout sur mon site:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+    Gwenn Seemel croit en un monde où les artistes sont rémunérés équitablement pour leur travail et protégés contre les technologies qui contournent le traitement éthique des créateurs. C’est pourquoi Gwenn n’utilise pas d’IA générative pour ses créations artistiques, ses vidéos, ou ses écrits.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+    Je maintiens cette déclaration, mais après avoir visionné une vidéo de l’astrophysicienne et experte en formation scientifique, la Dr Fatima, j’ai modifié le texte de mon pied de page ainsi:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+    L’art sur ce site est 100% réalisé par un être humain.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+    Puis ensuite plus bas la question:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+    Pourquoi pas d’IA?
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+    Et cette question constitue un lien cliquable.
+&lt;/p&gt;
+&lt;p&gt;
+    Je souhaitais développer davantage les raisons de mon choix d’éviter l’IA, et il me fallait donc rediriger les visiteurs vers une page d’explication plus détaillée.
+&lt;/p&gt;
+&lt;p&gt;
+    Je ne doute pas que mon explication évoluera avec le temps, mais il est gratifiant d’avoir exposer mon raisonnement. En effet, bien que la vidéo de la Dr Fatima fût fascinante à bien des égards, elle a produit sur moi un effet similaire à celui de la peinture du portrait de Janet: je me suis focalisée sur un point précis qu’elle a soulevé.
+&lt;/p&gt;
+&lt;p&gt;
+    Vers minute 53 de la vidéo, la Dr Fatima fait référence à des recherches inquiétantes suggérant que le fait de ne pas réellement comprendre le fonctionnement de l’IA rend une personne plus encline à adorer cette technologie.
+&lt;/p&gt;
+&lt;p&gt;
+    C’est déjà assez préoccupant en soi, mais la Dr Fatima révèle ensuite que les études qu’elle a citées avaient été faites à des fins d’études de marché. En d’autres termes, les entreprises spécialisées dans l’IA savent que, si elles nous empêchent de comprendre l’IA, nous serons d’autant plus enclins à l’utiliser. 
+&lt;/p&gt;
+&lt;p&gt;
+    Alors, j’essaie de faire comme Janet—j’essaie de ne pas être trop perturbée à ce sujet—mais je te demande, s’il te plaît, d’en apprendre davantage sur l’IA.
+&lt;/p&gt;
+&lt;/div&gt;&lt;/section&gt;
+&lt;section&gt;
+&lt;div class="cta"&gt;
+&lt;div class="cta-email"&gt;
+&lt;br/&gt;
+&lt;p&gt;
+            Peut-être que ce billet de blog te fait penser à quelque chose? Je serais ravie de recevoir un petit bonjour de ta part.
+        &lt;/p&gt;
+&lt;p&gt;
+&lt;a class="button" href="mailto:g@gwennseemel.com?subject=!!!!!" title="Envoyez-moi un message!"&gt;&lt;b&gt;CONTACTER&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="cta-inbox"&gt;
+&lt;br/&gt;
+&lt;p&gt;
+            Abonne-toi à ma liste de diffusion spéciale pour recevoir un email chaque fois que je publie un nouvel article.
+        &lt;/p&gt;
+&lt;p&gt;
+&lt;a class="button" href="/fr/coordonnees/tout-le-temps"&gt;&lt;b&gt;S’INSCRIRE&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="cta-support"&gt;
+&lt;br/&gt;
+&lt;p&gt;
+            Si tu as apprécié ce billet de blog, Ko-fi te permet de faire un don. Chaque dollar vaut un milliard pour moi!
+        &lt;/p&gt;
+&lt;p&gt;
+&lt;a class="button" href="https://ko-fi.com/gwennseemel"&gt;&lt;b&gt;POURBOIRE&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/blog/2026/0413-apprendre-ia/"/>
+    <summary>
+    13 avril 2026
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2026/2026Janet.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/blog/2026/0413-learn-ai/</id>
+    <title>Remaining Unflappable in the Face of AI</title>
+    <updated>2026-04-14T02:32:43.313287+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/blog"&gt;Blog&lt;/a&gt; / &lt;a href="/blog/2026"&gt;2026&lt;/a&gt; / Remaining Unflappable in the Face of AI&lt;/h1&gt;
+&lt;p class="blog-date"&gt;
+    April 13, 2026
+&lt;/p&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;div style="padding:56.25% 0 0 0;position:relative;"&gt;&lt;iframe allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" src="https://player.vimeo.com/video/1182627066?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Remaining Unflappable in the Face of AI"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src="https://player.vimeo.com/api/player.js"&gt;&lt;/script&gt;
+&lt;figcaption&gt;
+        [&lt;a href="#transcript"&gt;video transcript&lt;/a&gt;]
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Dr. Fatima’s &lt;a href="https://youtu.be/y85nqc2zm7M?si=5myXly9VW0kEEIsY"&gt;video&lt;/a&gt; is an excellent place to start learning about AI, and this is the &lt;a href="https://osf.io/preprints/psyarxiv/t9u8g_v1"&gt;alarming research&lt;/a&gt; that she cites. You can also check out my &lt;a href="/ai"&gt;“Why no AI?” page&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="commissioned artwork depicting a smiling woman with glasses, painted by portrait artist Gwenn Seemel" src="/images/2026/2026Janet.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Janet&lt;/i&gt; &lt;br/&gt;
+        2026&lt;br/&gt;
+        acrylic on paper&lt;br/&gt;
+        7 x 5 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div class="transcript-box"&gt;
+&lt;h5 id="transcript"&gt;VIDEO TRANSCRIPT&lt;/h5&gt;
+&lt;p&gt;
+    This is the making of a painting of a woman named Janet. This artwork shares two vital elements with all the portraits I’ve ever made:
+
+&lt;ol&gt;
+&lt;li&gt;It’s 100% human-made. Obviously.&lt;/li&gt;
+&lt;li&gt;In order to paint Janet, first, I photographed her, while also trying to get a feel for how she sees herself by asking questions like: “how would the people who know you best describe you?”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    “Unflappable” is how Janet replied.
+&lt;/p&gt;
+&lt;p&gt;
+    She said lots of other interesting things too, but that one word stuck with me, because in my twenty-plus years of asking that question, no one has ever described themself that way. And until I heard Janet say it, I had no idea how much I would love to be unflappable.
+&lt;/p&gt;
+&lt;p&gt;
+    Especially right now.
+&lt;/p&gt;
+&lt;p&gt;
+    Because: everything. But also, because: AI.
+&lt;/p&gt;
+&lt;p&gt;
+    Last year, I posted the following text in the footer of every page of my site:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+    Gwenn Seemel believes in a world where artists are fairly compensated for their work and protected against technologies that circumvent the ethical and equitable treatment of creative people. For this reason, Gwenn does not use generative AI when making art, videos, or writing.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+    And I stand by that statement, but after watching a video by the astrophysicist and science education expert Dr. Fatima, I’ve changed my footer text to the following:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+    This art is 100% human-made.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+    And then, below, the question:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+    Why no AI?
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+    And the question is a link.
+&lt;/p&gt;
+&lt;p&gt;
+    I wanted to say more about my choice to avoid AI, so I needed to link out to a longer explanation page.
+&lt;/p&gt;
+&lt;p&gt;
+    I’ve no doubt that my explanation will evolve, but it feels good to have laid out my thoughts, because, although Dr. Fatima’s video was fascinating on many levels, watching it was like painting Janet in that I got caught up on one thing in particular. 
+&lt;/p&gt;
+&lt;p&gt;
+    Around minute 53 of the video, Dr. Fatima refers to alarming research indicating that not really understanding AI makes a person more likely to enjoy the technology.
+&lt;/p&gt;
+&lt;p&gt;
+    That’s bad enough, but then Dr. Fatima reveals that the studies she cited were done for market research. In other words, the AI companies know that keeping us from understanding AI makes us more likely to use it. Or, to put it simply: the AI industry loves the poorly educated.
+&lt;/p&gt;
+&lt;p&gt;
+    So I’m trying to be like Janet—I’m trying not to flap too much about all this—but I’m asking you to please learn more about AI. 
+&lt;/p&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;/section&gt;
+&lt;section&gt;
+&lt;div class="cta"&gt;
+&lt;div class="cta-email"&gt;
+&lt;br/&gt;
+&lt;p&gt;
+            Maybe this post made you think of something you want to tell me? Or perhaps you have a question about my art? I’d love to hear from you!
+        &lt;/p&gt;
+&lt;p&gt;
+&lt;a class="button" href="mailto:g@gwennseemel.com?subject=!!!!!" title="Email me!"&gt;&lt;b&gt;EMAIL ME&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="cta-inbox"&gt;
+&lt;br/&gt;
+&lt;p&gt;
+            To receive an email every time I publish a new article or video, sign up for my special mailing list.
+        &lt;/p&gt;
+&lt;p&gt;
+&lt;a class="button" href="/contact/all-the-time"&gt;&lt;b&gt;SUBSCRIBE&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="cta-support"&gt;
+&lt;br/&gt;
+&lt;p&gt;
+            If you enjoyed this post, Ko-fi allows you to donate. Every dollar you give is worth a bajillion to me!
+        &lt;/p&gt;
+&lt;p&gt;
+&lt;a class="button" href="https://ko-fi.com/gwennseemel"&gt;&lt;b&gt;TIP ME&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/blog/2026/0413-learn-ai/"/>
+    <summary>
+    April 13, 2026
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2026/2026Janet.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
     <id>https://gwennseemel.com/fr/ia/</id>
     <title>Pourquoi pas d’IA pour l’Artiste Gwenn Seemel</title>
     <updated>2026-04-11T02:11:11.797025+00:00</updated>
