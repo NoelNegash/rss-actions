@@ -8,6 +8,36 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>/images/home/favicon/android-icon-192x192.png</logo>
   <entry>
+    <id>https://gwennseemel.com/fr/blog/0713-richie/</id>
+    <title>404 Error Gwenn Seemel</title>
+    <updated>2026-07-14T02:26:17.804269+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;404 Error / Erreur 404&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure class="east"&gt;
+&lt;img alt="alien cats" src="/images/2014/2014YSGSadworldCUTout.jpg"/&gt;
+&lt;/figure&gt;
+&lt;h4&gt;Page not found.&lt;/h4&gt;
+&lt;p&gt;
+    I rebuilt my site in 2018, editing out some old content as I went. It would be super helpful if you would &lt;a class="button" href="mailto:g@gwennseemel.com?subject=!!!!" title="Email me!"&gt;email me&lt;/a&gt; about the path you took to get to this page! That way I can get relevant things reposted and incoming links fixed. &lt;b&gt;Thank you so much!&lt;/b&gt;
+&lt;/p&gt;
+&lt;h4&gt;Fichier introuvable.&lt;/h4&gt;
+&lt;p&gt;
+    J’ai refait mon site en 2018, en supprimant certaines de mes anciennes pages. Ce serait super si vous pourriez &lt;a class="button" href="mailto:g@gwennseemel.com?subject=!!!!" title="Envoyez-moi un email!"&gt;m’envoyer un email&lt;/a&gt; décrivant le chemin que vous avez pris pour arriver là! Comme ça je pourrais réparer les liens. &lt;b&gt;Merci beaucoup!&lt;/b&gt;
+&lt;/p&gt;
+&lt;section&gt;
+&lt;/section&gt;&lt;/section&gt;&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/blog/0713-richie/"/>
+    <summary>
+    I rebuilt my site in 2018, editing out some old content as I went. It would be super helpful if you would email me about the path you took to get to this page! That way I can get relevant things reposted and incoming links fixed. Thank you so much!
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2014/2014YSGSadworldCUTout.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
     <id>https://gwennseemel.com/fr/blog/0707-52-firsts-zoo-orangoutan/</id>
     <title>404 Error Gwenn Seemel</title>
     <updated>2026-07-08T02:36:51.342133+00:00</updated>
