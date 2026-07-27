@@ -8,6 +8,98 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>/images/home/favicon/android-icon-192x192.png</logo>
   <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2026/250-george-washington/</id>
+    <title>Portrait de George Washington “No Kings” par Gwenn Seemel</title>
+    <updated>2026-07-27T02:51:04.656485+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="../"&gt;2026&lt;/a&gt; / George Washington&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait de George Washington, président des États-Unis, avec un drapeau américain et le symbole “No Kings” (une couronne barrée d’un X), une œuvre de l’artiste Gwenn Seemel" src="/images/2026/2026GeorgeWashington250.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;George Washington&lt;/i&gt; &lt;br/&gt;
+        2026&lt;br/&gt;
+        acrylique sur papier cartonné&lt;br/&gt;
+        36 x 28 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p class="price-tag"&gt;
+&lt;a href="/fr/coordonnees"&gt;&lt;b&gt;$800&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class="prints"&gt;
+&lt;a href="https://www.redbubble.com/shop/ap/182517305"&gt;&lt;b&gt;impression à la demande&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Ce portrait de George Washington s’inscrit dans ma propre célébration artistique du 250e anniversaire des États-Unis en 2026, laquelle comprend également &lt;a href="/fr/oeuvres/2026/250-abraham-lincoln"&gt;un autre portrait présidentiel&lt;/a&gt;. Si le premier dirigeant des États-Unis a pu être une figure controversée à bien des égards—notamment en raison de sa décision de réduire ses semblables en esclavage—Washington a néanmoins établi un précédent important pour la nation en refusant de se faire roi.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="détail d’une peinture du Président George Washington" src="/images/2026/2026GeorgeWashington250D.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2026/250-george-washington/"/>
+    <summary>
+$800
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2026/2026GeorgeWashington250.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2026/250-george-washington/</id>
+    <title>Contemporary George Washington “No Kings” Portrait, Painting by Gwenn Seemel</title>
+    <updated>2026-07-27T02:51:04.477282+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="../"&gt;2026&lt;/a&gt; / George Washington&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait of George Washington, president of the United States with American flag and NO KINGS symbol, semiquincentennial art by New Jersey artist Gwenn Seemel" src="/images/2026/2026GeorgeWashington250.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;George Washington&lt;/i&gt; &lt;br/&gt;
+        2026&lt;br/&gt;
+        acrylic on archival board&lt;br/&gt;
+        14 x 11 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p class="price-tag"&gt;
+&lt;a href="/contact"&gt;&lt;b&gt;$800&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class="prints"&gt;
+&lt;a href="https://www.redbubble.com/shop/ap/182517305"&gt;&lt;b&gt;order prints&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    This portrait of George Washington is part of my own artistic celebration of the 250&lt;sup&gt;th&lt;/sup&gt; anniversary of the United States in 2026, which also includes &lt;a href="/artwork/2026/250-abraham-lincoln"&gt;another presidential portrait&lt;/a&gt;. The first leader of the US may have been a problematic figure in many senses—most especially in his decision to enslave his fellow human beings—but Washington set an important precedent for this nation by refusing to make himself a king. 
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="detail image of a painting of President George Washington" src="/images/2026/2026GeorgeWashington250D.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2026/250-george-washington/"/>
+    <summary>
+$800
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2026/2026GeorgeWashington250.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
     <id>https://gwennseemel.com/fr/blog/2026/0720-52-firsts-zoo-sihek/</id>
     <title>L’Individualité Animale et le Bienfait des Zoos</title>
     <updated>2026-07-21T02:35:52.552482+00:00</updated>
