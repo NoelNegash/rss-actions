@@ -8,6 +8,813 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>/images/home/favicon/android-icon-192x192.png</logo>
   <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2004/ks-hypercolor/</id>
+    <title>Un Homme Peint par Gwenn Seemel 2004</title>
+    <updated>2026-10-27T03:51:42.381552+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="/fr/oeuvres/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2004&lt;/a&gt; / K&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait d’un homme" src="/images/2004/2004KSHypercolor.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;K&lt;/i&gt; &lt;br/&gt;
+        2004&lt;br/&gt;
+        acrylique sur toile&lt;br/&gt;
+        99 x 74 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Voici mon frère, et son expression, sur cette photo, me rappelle &lt;a href="/fr/oeuvres/2004/richard"&gt;notre père&lt;/a&gt;. Nous faisons d’ailleurs tous les deux &lt;a href="/fr/oeuvres/2002-avant/patern-casquette"&gt;cette même tête&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2004/ks-hypercolor/"/>
+    <summary>
+    Voici mon frère, et son expression, sur cette photo, me rappelle notre père. Nous faisons d’ailleurs tous les deux cette même tête.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2004/2004KSHypercolor.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2004/ks/</id>
+    <title>Portrait par Gwenn Seemel 2004</title>
+    <updated>2026-10-27T03:51:42.282974+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="/fr/oeuvres/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2004&lt;/a&gt; / K&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait d’un homme" src="/images/2004/2004KS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;K&lt;/i&gt; &lt;br/&gt;
+        2004&lt;br/&gt;
+        acrylique sur toile&lt;br/&gt;
+        51 x 41 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Voici l’un de mes frères, et je l’ai peint à plusieurs reprises, notamment en &lt;a href="/fr/oeuvres/2006/ks"&gt;2006&lt;/a&gt; et en &lt;a href="/fr/oeuvres/subjective/ks"&gt;2009&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2004/ks/"/>
+    <summary>
+    Voici l’un de mes frères, et je l’ai peint à plusieurs reprises, notamment en 2006 et en 2009.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2004/2004KS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2004/ds/</id>
+    <title>Portait Fait par l’Artiste Peintre Gwenn Seemel 2004</title>
+    <updated>2026-10-27T03:51:42.184562+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="/fr/oeuvres/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2004&lt;/a&gt; / D&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait d’un ami" src="/images/2004/2004DS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;D&lt;/i&gt; &lt;br/&gt;
+        2004&lt;br/&gt;
+        acrylique sur toile&lt;br/&gt;
+        58 x 48 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Voici l’un de mes portraits préférés parmi tous ceux que j’ai peints, tant pour sa composition que pour mes choix stylistiques. Il se situe au même niveau que &lt;a href="/fr/oeuvres/2013/charlotte"&gt;celui-ci peint en 2013&lt;/a&gt; et &lt;a href="/fr/oeuvres/2024/carmen"&gt;celui-là peint en 2024&lt;/a&gt;, mais aucun d’eux n’égale &lt;a href="/fr/oeuvres/2005/david-clangel"&gt;ce portrait de mon amour&lt;/a&gt;—en partie, du moins, parce que j’éprouve une affection toute particulière pour ce sujet.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2004/ds/"/>
+    <summary>
+    Voici l’un de mes portraits préférés parmi tous ceux que j’ai peints, tant pour sa composition que pour mes choix stylistiques. Il se situe au même niveau que celui-ci peint en 2013 et celui-là peint en 2024, mais aucun d’eux n’égale ce portrait de mon amour—en partie, du moins, parce que j’éprouve une affection toute particulière pour ce sujet.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2004/2004DS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2004/ks-hypercolor/</id>
+    <title>Portrait Painted by American Artist Gwenn Seemel 2004</title>
+    <updated>2026-10-27T03:51:42.082441+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="/artwork/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2004&lt;/a&gt; / K&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painted portrait of a man" src="/images/2004/2004KSHypercolor.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;K&lt;/i&gt; &lt;br/&gt;
+        2004&lt;br/&gt;
+        acrylic on canvas&lt;br/&gt;
+        39 x 29 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    This is my brother, and the look on his face here reminds me of our &lt;a href="/artwork/2004/richard"&gt;father&lt;/a&gt;. We also both make this &lt;a href="/artwork/2002-before/patern-casquette"&gt;face&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2004/ks-hypercolor/"/>
+    <summary>
+    This is my brother, and the look on his face here reminds me of our father. We also both make this face.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2004/2004KSHypercolor.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2004/ks/</id>
+    <title>Portrait of a Man Painted by His Sibling</title>
+    <updated>2026-10-27T03:51:41.959696+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="/artwork/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2004&lt;/a&gt; / K&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painted portrait of a man" src="/images/2004/2004KS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;K&lt;/i&gt; &lt;br/&gt;
+        2004&lt;br/&gt;
+        acrylic on canvas&lt;br/&gt;
+        20 x 16 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    This is one of my brothers and I’ve painted him multiple times, including in &lt;a href="/artwork/2006/ks"&gt;2006&lt;/a&gt; and in &lt;a href="/artwork/subjective/ks"&gt;2009&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2004/ks/"/>
+    <summary>
+    This is one of my brothers and I’ve painted him multiple times, including in 2006 and in 2009. 
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2004/2004KS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2004/ds/</id>
+    <title>Bust Style Portait by Painter Gwenn Seemel 2004</title>
+    <updated>2026-10-27T03:51:41.852599+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="/artwork/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2004&lt;/a&gt; / D&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painted portrait of a bald white man" src="/images/2004/2004DS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;D&lt;/i&gt; &lt;br/&gt;
+        2004&lt;br/&gt;
+        acrylic on canvas&lt;br/&gt;
+        23 x 19 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    This is one of my favorite portraits I’ve ever painted for composition and stylistic reasons. It’s in the same league as this &lt;a href="/artwork/2013/charlotte"&gt;2013 one&lt;/a&gt; and this &lt;a href="/artwork/2024/carmen"&gt;2024 one&lt;/a&gt;, but none of them compare to this &lt;a href="/artwork/2005/david-clangel"&gt;one of my sweetie&lt;/a&gt;—at least in part because I love that particular subject so much.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2004/ds/"/>
+    <summary>
+    This is one of my favorite portraits I’ve ever painted for composition and stylistic reasons. It’s in the same league as this 2013 one and this 2024 one, but none of them compare to this one of my sweetie—at least in part because I love that particular subject so much.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2004/2004DS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2006/richard-as/</id>
+    <title>Portraits par l’Artiste Gwenn Seemel 2006</title>
+    <updated>2026-10-27T03:51:41.749798+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="/fr/oeuvres/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2006&lt;/a&gt; / Papa et Maman&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portraits peints en acrylique" src="/images/2006/2006RichardAS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Papa&lt;/i&gt; et &lt;i&gt;Maman&lt;/i&gt; &lt;br/&gt;
+        2006&lt;br/&gt;
+        acrylique sur toile en patchwork et sur toile&lt;br/&gt;
+        51 x 102 centimètres (les deux ensemble)
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Voici un diptyque de mes parents. J’ai fait &lt;a href="/fr/oeuvres/2005/mary-robert"&gt;une paire de portraits&lt;/a&gt; du frère de mon père et de sa femme en 2005. Même si les frères avaient de très diférentes idées sur le monde, &lt;a href="/fr/oeuvres/2015/richard-robert"&gt;ils se ressemblaient beaucoup&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait peint en acrylique" src="/images/2006/2006RichardASDrichard.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img alt="portrait peint en acrylique" src="/images/2006/2006RichardASDas.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2006/richard-as/"/>
+    <summary>
+    Voici un diptyque de mes parents. J’ai fait une paire de portraits du frère de mon père et de sa femme en 2005. Même si les frères avaient de très diférentes idées sur le monde, ils se ressemblaient beaucoup.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2006/2006RichardAS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2006/ks/</id>
+    <title>Portrait par l’Artiste Gwenn Seemel 2006</title>
+    <updated>2026-10-27T03:51:41.578518+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="/fr/oeuvres/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2006&lt;/a&gt; / K&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait peint en acrylique" src="/images/2006/2006KS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;K&lt;/i&gt; &lt;br/&gt;
+        2006&lt;br/&gt;
+        acrylique sur toile à sac&lt;br/&gt;
+        122 x 86 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Voici un de mes frères. Je l’ai peint à plusieurs reprises, notamment en &lt;a href="/fr/oeuvres/2004/ks"&gt;2004&lt;/a&gt; et en &lt;a href="/fr/oeuvres/2015/ks"&gt;2015&lt;/a&gt;.
+
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait peint en acrylique" src="/images/2006/2006KSD.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2006/ks/"/>
+    <summary>
+    Voici un de mes frères. Je l’ai peint à plusieurs reprises, notamment en 2004 et en 2015.
+
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2006/2006KS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2006/richard-as/</id>
+    <title>Father and Mother Portraits by Their Kid Gwenn Seemel 2006</title>
+    <updated>2026-10-27T03:51:41.470291+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="/artwork/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2006&lt;/a&gt; / Papa and Maman&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="the artist’s parents, painted portrait" src="/images/2006/2006RichardAS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Papa&lt;/i&gt; and &lt;i&gt;Maman&lt;/i&gt; &lt;br/&gt;
+        2006&lt;br/&gt;
+        acrylic on canvas patchwork and canvas&lt;br/&gt;
+        20 x 40 inches (combined dimensions)
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    This is a diptych of my parents. I made a pair of matched &lt;a href="/artwork/2005/mary-robert"&gt;paintings&lt;/a&gt; of my father’s brother and his wife in 2005. In some ways, the brothers could not have been more different, but the family resemblance is clear in their painted faces &lt;a href="/artwork/2015/richard-robert"&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painting on canvas patchwork" src="/images/2006/2006RichardASDrichard.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img alt="painting on canvas" src="/images/2006/2006RichardASDas.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2006/richard-as/"/>
+    <summary>
+    This is a diptych of my parents. I made a pair of matched paintings of my father’s brother and his wife in 2005. In some ways, the brothers could not have been more different, but the family resemblance is clear in their painted faces here.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2006/2006RichardAS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2006/ks/</id>
+    <title>Portrait on Burlp by Gwenn Seemel 2006</title>
+    <updated>2026-10-27T03:51:41.358087+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="/artwork/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2006&lt;/a&gt; / K&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painted portrait on burlap" src="/images/2006/2006KS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;K&lt;/i&gt; &lt;br/&gt;
+        2006&lt;br/&gt;
+        acrylic on burlap&lt;br/&gt;
+        48 x 34 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    This is one of my brothers, and I’ve painted him multiple times, including in &lt;a href="/artwork/2004/ks"&gt;2004&lt;/a&gt; and &lt;a href="/artwork/2015/ks"&gt;2015&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painted portrait" src="/images/2006/2006KSD.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2006/ks/"/>
+    <summary>
+    This is one of my brothers, and I’ve painted him multiple times, including in 2004 and 2015.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2006/2006KS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/subjective/ks/</id>
+    <title>Portraits par les Artistes Becca Bernstein et Gwenn Seemel</title>
+    <updated>2026-10-27T03:51:41.250918+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="/fr/oeuvres/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;Subjective&lt;/a&gt; / Frère&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portraits de la même personne peints par deux artistes" src="/images/2009/2009SuKS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel et Becca Bernstein&lt;br/&gt;
+&lt;i&gt;Frère&lt;/i&gt; &lt;br/&gt;
+        2009 et 2010&lt;br/&gt;
+        acrylique sur toile et bois&lt;br/&gt;
+        91 x 152 centimètres (les deux ensemble)
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Le portrait de mon frère par Becca le montre en train de parler—idem &lt;a href="/fr/oeuvres/subjective/as"&gt;son portrait&lt;/a&gt; de ma Maman. Mon frère est charmeur et bavard, et ce portrait le représente bien, tout comme le mien! Je lui ai peint tenant une bougie d’anniversaire et montrant comment le feu peut traverser la fumée pour rallumer une bougie. Mon frère est expert en toutes sortes de sujet.    
+&lt;/p&gt;
+&lt;p&gt;
+    Au fil des ans, certaines personnes ont réagi de manières étranges à mon tableau, estimant que ça représentait quelqu’un qui se drogue. Je ne me drogue pas, donc je ne sais pas ce qu’ils voient dans l’image, mais je pense que leur réaction en dit plus sur eux que sur moi ou mon frère, un peu comme les réponses que j’ai reçues au sujet de &lt;a href="/fr/oeuvres/2017/trump-hello"&gt;cette œuvre&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait peint en acrylique" src="/images/2009/2009SuKSGSDyvon.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img alt="portrait peint en acrylique" src="/images/2009/2009SuKSBBD.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/subjective/ks/"/>
+    <summary>
+    Le portrait de mon frère par Becca le montre en train de parler—idem son portrait de ma Maman. Mon frère est charmeur et bavard, et ce portrait le représente bien, tout comme le mien! Je lui ai peint tenant une bougie d’anniversaire et montrant comment le feu peut traverser la fumée pour rallumer une bougie. Mon frère est expert en toutes sortes de sujet.    
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2009/2009SuKS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/subjective/as/</id>
+    <title>Portraits par les Artistes Becca Bernstein et Gwenn Seemel</title>
+    <updated>2026-10-27T03:51:41.099834+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="/fr/oeuvres/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;Subjective&lt;/a&gt; / Mère&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portraits de la même personne peints par deux artistes" src="/images/2009/2009SuAS.jpg"/&gt;
+&lt;figcaption&gt;
+        Becca Bernstein et Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Mère&lt;/i&gt; &lt;br/&gt;
+        2010 et 2009&lt;br/&gt;
+        acrylique sur bois et toile&lt;br/&gt;
+        91 x 152 centimètres (les deux ensemble)
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    De toutes les paires dans cette série, celle-ci est ma préférée. J’aime bien comment Becca a capturé ma mère, en insistant sur des détails que je ne choisirais peut-être pas—la façon dont elle parle avec ses mains et la forme spécifique de ses lèvres. Becca m’a fait voir ma mère autrement et ça me plaît énormément. Bien sûr, j’ai aussi adoré faire ma moitié du diptyque, et je suis très heureuse avec les mains de ma mère dans le portrait. Je crois que leur succès contribue au succès de l’image, un peu comme la main dans &lt;a href="/fr/oeuvres/apple-pie/renate"&gt;cette œuvre&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait peint en acrylique" src="/images/2009/2009SuASBBD.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img alt="portrait peint en acrylique" src="/images/2009/2009SuASGSDas.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/subjective/as/"/>
+    <summary>
+    De toutes les paires dans cette série, celle-ci est ma préférée. J’aime bien comment Becca a capturé ma mère, en insistant sur des détails que je ne choisirais peut-être pas—la façon dont elle parle avec ses mains et la forme spécifique de ses lèvres. Becca m’a fait voir ma mère autrement et ça me plaît énormément. Bien sûr, j’ai aussi adoré faire ma moitié du diptyque, et je suis très heureuse avec les mains de ma mère dans le portrait. Je crois que leur succès contribue au succès de l’image, un peu comme la main dans cette œuvre.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2009/2009SuAS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/subjective/ks/</id>
+    <title>Portraits by Oregon Artists Gwenn Seemel and Becca Bernstein</title>
+    <updated>2026-10-27T03:51:40.947321+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="/artwork/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;Subjective&lt;/a&gt; / Brother&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painted portraits by two artists" src="/images/2009/2009SuKS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel and Becca Bernstein&lt;br/&gt;
+&lt;i&gt;Brother&lt;/i&gt; &lt;br/&gt;
+        2009 and 2010&lt;br/&gt;
+        acrylic on canvas and wood&lt;br/&gt;
+        36 x 60 inches (combined dimensions)
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    I love how Becca’s portrait of my brother shows him in an animated talking moment, much like her &lt;a href="/artwork/subjective/as"&gt;portrait&lt;/a&gt; of my mother. It’s very much who he is. Then again, so is my portrait of him, which shows him holding a birthday candle and demonstrating the way that fire can travel through smoke to relight a candle. My brother is an expert of trivia.
+&lt;/p&gt;
+&lt;p&gt;
+    Over the years, a number of people have had strange reactions to my paintng of my brother, believing it to be a depiction of drug use. I don’t use drugs so I don’t know what it is that they are seeing in the piece, but I do believe that their response says more about them than about me or my brother, much like the responses I have gotten to this &lt;a href="/artwork/2017/trump-hello"&gt;piece&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painterly portrait" src="/images/2009/2009SuKSGSDyvon.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img alt="painterly portrait" src="/images/2009/2009SuKSBBD.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/subjective/ks/"/>
+    <summary>
+    I love how Becca’s portrait of my brother shows him in an animated talking moment, much like her portrait of my mother. It’s very much who he is. Then again, so is my portrait of him, which shows him holding a birthday candle and demonstrating the way that fire can travel through smoke to relight a candle. My brother is an expert of trivia.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2009/2009SuKS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/subjective/as/</id>
+    <title>Portraits of a Mother by Oregon Artists Becca Bernstein and Gwenn Seemel</title>
+    <updated>2026-10-27T03:51:40.846285+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="/artwork/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;Subjective&lt;/a&gt; / Mother&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="a woman talking and the same woman with a Brittany Spaniel on her lap" src="/images/2009/2009SuAS.jpg"/&gt;
+&lt;figcaption&gt;
+        Becca Bernstein and Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Mother&lt;/i&gt; &lt;br/&gt;
+        2010 and 2009&lt;br/&gt;
+        acrylic on wood and canvas&lt;br/&gt;
+        36 x 60 inches (combined dimensions)
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Of all the pairs in this collaborative series, this one is my favorite. I love the way that Becca captured my mother, emphasizing details that I might not—the way she speaks with her hands at times and the specific shape of her lips, for example. My collaborator made me look again at my mother and that makes me very happy. Of course, I also enjoyed making my half of the diptych, and I’m so pleased with how my mother’s hands turned out. I feel like their success really makes this a true portrait, much like the hand in this &lt;a href="/artwork/apple-pie/renate"&gt;piece&lt;/a&gt; contributes to it success.
+&lt;/p&gt;
+&lt;p&gt;
+    For more about the making of these paintings and a behind-the-scenes look at the photo-sessions that made them possible, check out this &lt;a href="/blog/2010/0326-from-photos"&gt;blog post&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="Becca Bernstein portrait" src="/images/2009/2009SuASBBD.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img alt="Gwenn Seemel painterly portrait" src="/images/2009/2009SuASGSDas.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/subjective/as/"/>
+    <summary>
+    Of all the pairs in this collaborative series, this one is my favorite. I love the way that Becca captured my mother, emphasizing details that I might not—the way she speaks with her hands at times and the specific shape of her lips, for example. My collaborator made me look again at my mother and that makes me very happy. Of course, I also enjoyed making my half of the diptych, and I’m so pleased with how my mother’s hands turned out. I feel like their success really makes this a true portrait, much like the hand in this piece contributes to it success.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2009/2009SuAS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2014/richard-as-soleil/</id>
+    <title>Double Portrait de Gwenn Seemel 2014</title>
+    <updated>2026-10-27T03:51:40.700241+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="/fr/oeuvres/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2014&lt;/a&gt; / Du Soleil et de l’Air Frais&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="double portrait des parents de Gwenn Seemel" src="/images/2014/2014RichardASSun.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Du Soleil et de l’Air Frais&lt;/i&gt; &lt;br/&gt;
+        2014&lt;br/&gt;
+        acrylique sur bois&lt;br/&gt;
+        25 x 25 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Ceci est mon premier double portrait de mes parents, suivi de près par &lt;a href="/fr/oeuvres/2014/richard-as"&gt;celui-ci&lt;/a&gt;. En 2006, j’ai peint &lt;a href="/fr/oeuvres/2006/richard-as"&gt;une paire de portraits assortis d’eux&lt;/a&gt;. Vous pouvez &lt;a href="/fr/blog/2015/0119-original"&gt;voir la réalisation &lt;i&gt;Du Soleil et de l’Air Frais&lt;/i&gt;&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="peint en acrylique" src="/images/2014/2014RichardASSunDrichard.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img alt="peint en acrylique" src="/images/2014/2014RichardASSunDas.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2014/richard-as-soleil/"/>
+    <summary>
+    Ceci est mon premier double portrait de mes parents, suivi de près par celui-ci. En 2006, j’ai peint une paire de portraits assortis d’eux. Vous pouvez voir la réalisation Du Soleil et de l’Air Frais.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2014/2014RichardASSun.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2014/richard-as/</id>
+    <title>Double Portrait de Gwenn Seemel 2014</title>
+    <updated>2026-10-27T03:51:40.565696+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="/fr/oeuvres/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2014&lt;/a&gt; / 40 Ans&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="double portrait peint en acrylique" src="/images/2014/2014RichardAS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;40 Ans&lt;/i&gt; &lt;br/&gt;
+        2014&lt;br/&gt;
+        acrylique sur bois&lt;br/&gt;
+        25 x 25 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    En 2014, mes parents ont célébré quarante ans de mariage, et &lt;a href="/fr/oeuvres/2014/lucille-ron"&gt;mes beaux-parents&lt;/a&gt; ont fêté leurs cinquante ans! Vous pouvez &lt;a href="/fr/blog/2018/0507-pas-independante"&gt;voir la réalisation de ce double portrait&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="papa peint en acrylique" src="/images/2014/2014RichardASDrichard.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img alt="maman peinte en acrylique" src="/images/2014/2014RichardASDas.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2014/richard-as/"/>
+    <summary>
+    En 2014, mes parents ont célébré quarante ans de mariage, et mes beaux-parents ont fêté leurs cinquante ans! Vous pouvez voir la réalisation de ce double portrait.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2014/2014RichardAS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2014/richard-as-sun/</id>
+    <title>Painted Portrait of a Fun Couple by French-American Artist Gwenn Seemel 2014</title>
+    <updated>2026-10-27T03:51:40.430446+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="/artwork/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2014&lt;/a&gt; / Sunshine and Fresh Air&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painted portrait of an old man in sunglasses and a woman with wind in her hair" src="/images/2014/2014RichardASSun.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Sunshine and Fresh Air&lt;/i&gt; &lt;br/&gt;
+        2014&lt;br/&gt;
+        acrylic on panel&lt;br/&gt;
+        10 x 10 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    This is my first double portrait of my parents, followed closely by this &lt;a href="/artwork/2014/richard-as"&gt;second painting&lt;/a&gt;. In 2006, I painted a pair of &lt;a href="/artwork/2006/richard-as"&gt;matched portraits&lt;/a&gt; of the two of them. You can &lt;a href="/blog/2015/0119-original"&gt;watch the making of &lt;i&gt;Sunshine and Fresh Air&lt;/i&gt;&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painted portrait of an old man in sunglasses" src="/images/2014/2014RichardASSunDrichard.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img alt="painted portrait of a woman with wind in her hair" src="/images/2014/2014RichardASSunDas.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2014/richard-as-sun/"/>
+    <summary>
+    This is my first double portrait of my parents, followed closely by this second painting. In 2006, I painted a pair of matched portraits of the two of them. You can watch the making of Sunshine and Fresh Air.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2014/2014RichardASSun.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2014/richard-as/</id>
+    <title>Double Portrait by French-American Painter Gwenn Seemel 2014</title>
+    <updated>2026-10-27T03:51:40.324363+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="/artwork/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2014&lt;/a&gt; / 40 years&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="40th anniversary wedding portrait" src="/images/2014/2014RichardAS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;40 years&lt;/i&gt; &lt;br/&gt;
+        2014&lt;br/&gt;
+        acrylic on panel&lt;br/&gt;
+        10 x 10 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    My parents celebrated forty years of marriage in 2014, an occasion I marked by &lt;a href="/blog/2018/0507-not-independently"&gt;painting the double portrait&lt;/a&gt; shown here. Also in 2014, my &lt;a href="/artwork/2014/lucille-ron"&gt;parents-in-law&lt;/a&gt; had a party for their fifty years! 
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="40th anniversary wedding portrait" src="/images/2014/2014RichardASDrichard.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img alt="40th anniversary wedding portrait" src="/images/2014/2014RichardASDas.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2014/richard-as/"/>
+    <summary>
+    My parents celebrated forty years of marriage in 2014, an occasion I marked by painting the double portrait shown here. Also in 2014, my parents-in-law had a party for their fifty years! 
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2014/2014RichardAS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2015/ks/</id>
+    <title>Portrait Peint par Gwenn Seemel 2015</title>
+    <updated>2026-10-27T03:51:40.184831+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="/fr/oeuvres/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2015&lt;/a&gt; / K&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait d’un homme" src="/images/2015/2015KS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;K&lt;/i&gt; &lt;br/&gt;
+        2015&lt;br/&gt;
+        acrylique sur bois&lt;br/&gt;
+        18 x 13 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Voici un de mes frères. Je l’ai peint à maintes reprises, notamment en &lt;a href="/fr/oeuvres/2006/ks"&gt;2006&lt;/a&gt; et &lt;a href="/fr/oeuvres/2004/ks"&gt;2004&lt;/a&gt;. Vous pouvez &lt;a href="/fr/blog/2015/0504-evoluer-public/"&gt;voir la réalisation de ce portrait&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2015/ks/"/>
+    <summary>
+    Voici un de mes frères. Je l’ai peint à maintes reprises, notamment en 2006 et 2004. Vous pouvez voir la réalisation de ce portrait.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2015/2015KS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2015/ks/</id>
+    <title>Painted Portrait by New Jersey Artist Gwenn Seemel 2015</title>
+    <updated>2026-10-27T03:51:40.035081+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="/artwork/archives"&gt;Archives&lt;/a&gt; / &lt;a href="../"&gt;2015&lt;/a&gt; / K&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="painted portrait of a man with a goatee" src="/images/2015/2015KS.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;K&lt;/i&gt; &lt;br/&gt;
+        2015&lt;br/&gt;
+        acrylic on panel&lt;br/&gt;
+        7 x 5 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    This is one of my brothers, and I’ve painted him many times before, including in &lt;a href="/artwork/2006/ks"&gt;2006&lt;/a&gt; and in &lt;a href="/artwork/2004/ks"&gt;2004&lt;/a&gt;. You can &lt;a href="/blog/2015/0504-evolving-public"&gt;watch the making of this portrait&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2015/ks/"/>
+    <summary>
+    This is one of my brothers, and I’ve painted him many times before, including in 2006 and in 2004. You can watch the making of this portrait.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2015/2015KS.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
     <id>https://gwennseemel.com/fr/oeuvres/2003/as/</id>
     <title>Portrait de la Mère de l’Artiste Gwenn Seemel 2003</title>
     <updated>2026-10-26T03:24:17.824132+00:00</updated>
