@@ -8,6 +8,92 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>/images/home/favicon/android-icon-192x192.png</logo>
   <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2026/merle/</id>
+    <title>Portrait d’une Mamie par Gwenn Seemel</title>
+    <updated>2026-11-07T04:48:20.593395+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="../"&gt;2026&lt;/a&gt; / Merle&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="portrait d’une mamie par Gwenn Seemel" src="/images/2026/2026Merle.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Merle&lt;/i&gt; &lt;br/&gt;
+        2026&lt;br/&gt;
+        acrylique sure toile&lt;br/&gt;
+        61 x 61 centimètres
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    L’expression de Merle me rappelle celle de &lt;a href="/fr/oeuvres/sentrapprivoiser/cindy-regan"&gt;cette enfant&lt;/a&gt;. Elles ont toutes les deux un côté enjoué qui me ravit.
+&lt;/p&gt;
+&lt;p&gt;
+    Peut-être y a-t-il, dans votre entourage, une personne au sourire taquin que vous aimeriez voir immortalisée dans une peinture? Découvrez comment me commander un portrait en consultant &lt;a href="/fr/boutique/personnalisee"&gt;cette page&lt;/a&gt;!
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="détail d’un portrait d’une mamie par Gwenn Seemel" src="/images/2026/2026MerleD.jpg"/&gt;
+&lt;figcaption&gt;
+        détail
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2026/merle/"/>
+    <summary>
+    L’expression de Merle me rappelle celle de cette enfant. Elles ont toutes les deux un côté enjoué qui me ravit.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2026/2026Merle.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2026/merle/</id>
+    <title>Portrait of Merle Citron of Lambertville, New Jersey, by Gwenn Seemel</title>
+    <updated>2026-11-07T04:48:20.420361+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="../"&gt;2026&lt;/a&gt; / Merle&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="Merle Citron art by Lambertville artist Gwenn Seemel" src="/images/2026/2026Merle.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Merle&lt;/i&gt; &lt;br/&gt;
+        2026&lt;br/&gt;
+        acrylic on canvas&lt;br/&gt;
+        24 x 24 inches
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Merle’s expression reminds me of this &lt;a href="/artwork/friend-request/cindy-regan"&gt;kid&lt;/a&gt;’s, and there’s a playfulness to both of them that delights me.
+&lt;/p&gt;
+&lt;p&gt;
+    Maybe there’s someone with a mishievous smile in your life who you’d like to see painted? Learn more about commissioning me to paint a portrait on this &lt;a href="/shop/custom-art"&gt;page&lt;/a&gt;!
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="detail image of a painting of a woman" src="/images/2026/2026MerleD.jpg"/&gt;
+&lt;figcaption&gt;
+        detail image
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2026/merle/"/>
+    <summary>
+    Merle’s expression reminds me of this kid’s, and there’s a playfulness to both of them that delights me.
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2026/2026Merle.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
     <id>https://gwennseemel.com/blog/2026/1102-swirl/</id>
     <title>Comfort Food for My Hands</title>
     <updated>2026-11-03T05:29:44.913525+00:00</updated>
