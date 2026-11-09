@@ -8,6 +8,82 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <logo>/images/home/favicon/android-icon-192x192.png</logo>
   <entry>
+    <id>https://gwennseemel.com/fr/oeuvres/2026/250-cloche/</id>
+    <title>Peinture Colorée Représentant la Cloche de la Liberté et des Roses Sauvages</title>
+    <updated>2026-11-09T04:49:54.677200+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/fr/oeuvres"&gt;Œuvres&lt;/a&gt; / &lt;a href="../"&gt;2026&lt;/a&gt; / Fleurir (La Cloche de la Liberté)&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="la Cloche de la Liberté entourée de roses sauvages roses, une peinture de l’artiste Gwenn Seemel" src="/images/2026/2026LibertyBell250.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Fleurir (La Cloche de la Liberté)&lt;/i&gt; &lt;br/&gt;
+        2026&lt;br/&gt;
+        acrylique sur toile&lt;br/&gt;
+        46 centimètres de diamètre
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p class="price-tag"&gt;
+&lt;a href="/fr/coordonnees"&gt;&lt;b&gt;$1800&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class="prints"&gt;
+&lt;a href="https://www.redbubble.com/shop/ap/185463588"&gt;&lt;b&gt;impression à la demande&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Ce tableau représentant un monument américain entouré de la fleur nationale s’inscrit dans le cadre de ma célébration du 250e anniversaire des États-Unis en 2026, aux côtés d’autres peintures figurant &lt;a href="/fr/oeuvres/2026/250-george-washington"&gt;le premier président&lt;/a&gt;, &lt;a href="/fr/oeuvres/2026/250-abraham-lincoln"&gt;le seizième&lt;/a&gt;, &lt;a href="/fr/oeuvres/2026/250-pygargues"&gt;l’oiseau national&lt;/a&gt;, &lt;a href="/fr/oeuvres/2026/250-bison"&gt;l’animal national&lt;/a&gt;, et &lt;a href="/fr/oeuvres/2026/250-statue"&gt;la Statue de la Liberté&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/fr/oeuvres/2026/250-cloche/"/>
+    <summary>
+$1800
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2026/2026LibertyBell250.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://gwennseemel.com/artwork/2026/250-bell/</id>
+    <title>Colorful Painting of the Liberty Bell and Wild Roses</title>
+    <updated>2026-11-09T04:49:54.591363+00:00</updated>
+    <content type="html">&lt;main&gt;
+&lt;article&gt;
+&lt;h1&gt;&lt;a href="/artwork"&gt;Artwork&lt;/a&gt; / &lt;a href="../"&gt;2026&lt;/a&gt; / Bloom (Liberty Bell)&lt;/h1&gt;
+&lt;section&gt;
+&lt;figure&gt;
+&lt;img alt="Liberty Bell surrounded by pink wild roses, colorful painting by artist Gwenn Seemel" src="/images/2026/2026LibertyBell250.jpg"/&gt;
+&lt;figcaption&gt;
+        Gwenn Seemel&lt;br/&gt;
+&lt;i&gt;Bloom (Liberty Bell)&lt;/i&gt; &lt;br/&gt;
+        2026&lt;br/&gt;
+        acrylic on canvas&lt;br/&gt;
+        18 inches in diameter
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p class="price-tag"&gt;
+&lt;a href="/contact"&gt;&lt;b&gt;$1800&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class="prints"&gt;
+&lt;a href="https://www.redbubble.com/shop/ap/185463588"&gt;&lt;b&gt;order prints&lt;/b&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    This painting of an American monument surrounded by the national flower is part of my celebration of the 250&lt;sup&gt;th&lt;/sup&gt; anniversary of the United States in 2026, along with paintings of the &lt;a href="/artwork/2026/250-george-washington"&gt;first president&lt;/a&gt;, the &lt;a href="/artwork/2026/250-abraham-lincoln"&gt;sixteenth one&lt;/a&gt;, the &lt;a href="/artwork/2026/250-eagles"&gt;national bird&lt;/a&gt;, the &lt;a href="/artwork/2026/250-bison"&gt;national animal&lt;/a&gt;, and the &lt;a href="/artwork/2026/250-statue"&gt;Statue of Liberty&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+&lt;/main&gt;</content>
+    <link href="https://gwennseemel.com/artwork/2026/250-bell/"/>
+    <summary>
+$1800
+</summary>
+    <media:group>
+      <media:thumbnail url="/images/2026/2026LibertyBell250.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
     <id>https://gwennseemel.com/fr/oeuvres/2026/merle/</id>
     <title>Portrait d’une Mamie par Gwenn Seemel</title>
     <updated>2026-11-07T04:48:20.593395+00:00</updated>
